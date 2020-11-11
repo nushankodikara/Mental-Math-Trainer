@@ -23,7 +23,7 @@
 	},
 	"messages": {
 		"score" : "__total__ answered, __skipped__ skipped",
-		"finalScore" : "In __scoreTime__, you have solved __scoreTotal__ problems (skipped __scoreSkipped__)"
+		"finalScore" : "In __scoreTime__, you have solved __scoreTotal__ problems (skipped __scoreSkipped__) [ Rate __rate__ Cps ]"
 	},
 	"errors": {
 		"minutesInvalid"	   : "The \"minutes\" field must be a valid integer between __min__ and __max__",

@@ -301,7 +301,8 @@
 
 	/**
 	 * Initializer and timer functionality.
-	 */
+	*/
+
 	trainer.run = function () {
 		/**
 		 * Sets the score time when the timer has stopped or has been canceled.
@@ -309,11 +310,17 @@
 		 *  timer was canceled
 		 */
 		var setScoreText = function (timeString) {
+			var seconds = 1;
 			if(!timeString) {
 				timeString = config.minutes + ' ' + (config.minutes !== 1 ? i18n.t('labels.minutes') : i18n.t('labels.minute'));
+				seconds = (parseInt(config.minutes*60))
+				var rate = (parseInt(stats.total) / parseInt(seconds)).toFixed(3)
+				writeScore(rate)
+			} else {
+				seconds = (parseInt(timeString.split(':')[0])*60 + parseInt(timeString.split(':')[1]))
 			}
 			$('#finalScore').text(
-				i18n.t('messages.finalScore', { scoreTime: timeString, scoreTotal: stats.total, scoreSkipped: stats.skipped })
+				i18n.t('messages.finalScore', { scoreTime: timeString, scoreTotal: stats.total, scoreSkipped: stats.skipped, rate: rate })
 			);
 		};
 

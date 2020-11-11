@@ -6,14 +6,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
 
+	<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css" />
 	<link rel="stylesheet" type="text/css" href="css/mathtrainer.css" />
 	<link rel="stylesheet" type="text/css" href="css/theme.css" />
+
 </head>
 
 <body>
-	<div class="backgroundImage"></div>
+	<!--<div class="backgroundImage"></div>-->
 	<div class="panel">
 		<div class="panel-heading">
 			<center>
@@ -23,7 +25,22 @@
 			</center>
 		</div>
 	</div>
-	<div class="panel">
+	<div class="panel user">
+		<div class="panel-heading blogin">
+			<center>
+				<img onclick="login()" style="margin:20px 0;" src="./locales/btn_google_signin_dark_normal_web.png"
+					alt="">
+			</center>
+		</div>
+		<div class="panel-heading alogin">
+			<center>
+				<h3>Welcome <span class="name">User</span></h3>
+				<em>Current Attempt <span class="attempt"></span></em><br>
+				<em><a onclick="signOut()">Sign Out</a></em>
+			</center>
+		</div>
+	</div>
+	<div class="panel alogin">
 		<div class="panel-body">
 
 			<div class="row">
@@ -189,10 +206,30 @@
 	<div class="panel">
 		<p class="copyright">Copyright © 2020. Nushan Kodikara</p>
 	</div>
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyBvDwnFtfHuNYb3PMQNfLEh6-WKf4PFqkY",
+			authDomain: "mental-arithmatic.firebaseapp.com",
+			databaseURL: "https://mental-arithmatic.firebaseio.com",
+			projectId: "mental-arithmatic",
+			storageBucket: "mental-arithmatic.appspot.com",
+			messagingSenderId: "1058394091077",
+			appId: "1:1058394091077:web:590b3a9841776c761f3d2c"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+	</script>
 	<script type="text/javascript" src="js/jquery.min.js"></script>
 	<script type="text/javascript" src="js/i18next.min.js"></script>
 	<script type="text/javascript" src="js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="js/jquery.countdown.min.js"></script>
+	<script type="text/javascript" src="js/firebase.js"></script>
 	<script type="text/javascript" src="js/mathtrainer.js"></script>
 </body>
 
