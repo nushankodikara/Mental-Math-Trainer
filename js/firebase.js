@@ -10,30 +10,33 @@ function authCheck(){
     firebase.database().ref(`smat/${userObj.uid}/`).update({
         authCheck: 1
     });
-    firebase.database().ref(`smat/${userObj.uid}/authCheck`).once('value').then(function(snapshot) {
-        auth = snapshot.val() || 0;
-        if(!auth){
-            loggedOut()
-            alert('Please Contact +94724874919 on whatsapp for Permission. If you already paid for this month, Please report to prasadskodikara@gmail.com')
-            signOut()
-        } else {
-            firebase.database().ref(`smat/${userObj.uid}/`).update({
-                authCheck: 0
-            });
-        }
-    });
+    setTimeout(function(){
+        firebase.database().ref(`smat/${userObj.uid}/authCheck`).once('value').then(function(snapshot) {
+            auth = snapshot.val() || 0;
+            console.log(snapshot.val())
+            if(!auth){
+                loggedOut()
+                alert('Please Contact +94724874919 on whatsapp for Permission. If you already paid for this month, Please report to prasadskodikara@gmail.com')
+                signOut()
+            } else {
+                firebase.database().ref(`smat/${userObj.uid}/`).update({
+                    authCheck: 0
+                });
+                loggedIn()
+                firebase.database().ref(`smat/${userObj.uid}/currentAttempt`).on('value', function(snapshot) {
+                    attempts = snapshot.val() || 1;
+                    catt = attempts;
+                    $('.attempt').text(catt);
+                });
+            }
+        })}
+    , 3000);
 }
 
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
         userObj = user;
         authCheck()
-        loggedIn()
-        firebase.database().ref(`smat/${userObj.uid}/currentAttempt`).on('value', function(snapshot) {
-            attempts = snapshot.val() || 1;
-            catt = attempts;
-            $('.attempt').text(catt);
-        });
     } else {
         loggedOut()
     }
