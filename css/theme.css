@@ -11,7 +11,6 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
 .backgroundImage {
@@ -64,4 +63,17 @@ body {
 .copyright {
     color: hsl(0deg 0% 25%);
     margin: 20px 0;
+}
+
+#progressionChart {
+    width: 100%;
+    height: 300px;
+}
+
+.ct-label {
+    color: white;
+}
+
+.ct-grid {
+    stroke: rgba(255, 255, 255, 0.4);
 }

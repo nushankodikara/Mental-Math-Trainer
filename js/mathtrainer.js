@@ -5,10 +5,34 @@
 	 * List of supported operators.
 	 */
 	var operators = {
-		add: {name: 'add', sign: '+',    result: function (a, b) { return a + b; }},
-		sub: {name: 'sub', sign: '-',    result: function (a, b) { return a - b; }},
-		mul: {name: 'mul', sign: '\xD7', result: function (a, b) { return a * b; }},
-		div: {name: 'div', sign: '\xF7', result: function (a, b) { return a / b; }}
+		add: {
+			name: 'add',
+			sign: '+',
+			result: function (a, b) {
+				return a + b;
+			}
+		},
+		sub: {
+			name: 'sub',
+			sign: '-',
+			result: function (a, b) {
+				return a - b;
+			}
+		},
+		mul: {
+			name: 'mul',
+			sign: '\xD7',
+			result: function (a, b) {
+				return a * b;
+			}
+		},
+		div: {
+			name: 'div',
+			sign: '\xF7',
+			result: function (a, b) {
+				return a / b;
+			}
+		}
 	};
 
 	/**
@@ -80,7 +104,10 @@
 			$('#answer').val('');
 			$('#currentquestion').text(question.a + '\xA0' + sign + '\xA0' +
 				question.b);
-			$('#progress').text(i18n.t('messages.score', {total: stats.total, skipped: stats.skipped}));
+			$('#progress').text(i18n.t('messages.score', {
+				total: stats.total,
+				skipped: stats.skipped
+			}));
 		};
 
 		/**
@@ -212,12 +239,18 @@
 			var hasErrors = false;
 
 			if (isNaN(min) || min < -9999999 || min > 9999999) {
-				error.add(['rangemin'], i18n.t('errors.rangeMinInvalid', {min: -9999999, max: 9999999}));
+				error.add(['rangemin'], i18n.t('errors.rangeMinInvalid', {
+					min: -9999999,
+					max: 9999999
+				}));
 				hasErrors = true;
 			}
 
 			if (isNaN(max) || max < -9999999 || max > 9999999) {
-				error.add(['rangemax'], i18n.t('errors.rangeMaxInvalid', {min: -9999999, max: 9999999}));
+				error.add(['rangemax'], i18n.t('errors.rangeMaxInvalid', {
+					min: -9999999,
+					max: 9999999
+				}));
 				hasErrors = true;
 			}
 
@@ -237,7 +270,10 @@
 		var initializeMinutes = function () {
 			var timerValue = parseInt($('#timerlength').val());
 			if (isNaN(timerValue) || timerValue <= 0 || timerValue > 60) {
-				error.add(['timerlength'], i18n.t('errors.minutesInvalid', {min: 1, max: 60}));
+				error.add(['timerlength'], i18n.t('errors.minutesInvalid', {
+					min: 1,
+					max: 60
+				}));
 			} else {
 				config.minutes = timerValue;
 			}
@@ -301,7 +337,7 @@
 
 	/**
 	 * Initializer and timer functionality.
-	*/
+	 */
 
 	trainer.run = function () {
 		/**
@@ -311,16 +347,21 @@
 		 */
 		var setScoreText = function (timeString) {
 			var seconds = 1;
-			if(!timeString) {
+			if (!timeString) {
 				timeString = config.minutes + ' ' + (config.minutes !== 1 ? i18n.t('labels.minutes') : i18n.t('labels.minute'));
-				seconds = (parseInt(config.minutes*60))
+				seconds = (parseInt(config.minutes * 60))
 				var rate = (parseInt(stats.total) / parseInt(seconds)).toFixed(3)
 				writeScore(rate)
 			} else {
-				seconds = (parseInt(timeString.split(':')[0])*60 + parseInt(timeString.split(':')[1]))
+				seconds = (parseInt(timeString.split(':')[0]) * 60 + parseInt(timeString.split(':')[1]))
 			}
 			$('#finalScore').text(
-				i18n.t('messages.finalScore', { scoreTime: timeString, scoreTotal: stats.total, scoreSkipped: stats.skipped, rate: rate })
+				i18n.t('messages.finalScore', {
+					scoreTime: timeString,
+					scoreTotal: stats.total,
+					scoreSkipped: stats.skipped,
+					rate: rate
+				})
 			);
 		};
 
@@ -361,16 +402,16 @@
 			 */
 			var start = function () {
 				$('#timer').countdown(new Date().getTime() + config.minutes * 60000)
-				.on('update.countdown', function (event) {
-					$(this).text(event.strftime('%M:%S'));
-				})
-				// sic: the event is mistyped
-				.on('stoped.countdown', function (event) {
-					showScore(computeElapsedTime(event));
-				})
-				.on('finish.countdown', function () {
-					showScore();
-				});
+					.on('update.countdown', function (event) {
+						$(this).text(event.strftime('%M:%S'));
+					})
+					// sic: the event is mistyped
+					.on('stoped.countdown', function (event) {
+						showScore(computeElapsedTime(event));
+					})
+					.on('finish.countdown', function () {
+						showScore();
+					});
 			};
 
 			return {
@@ -385,7 +426,7 @@
 			stats.total = 0;
 			stats.skipped = 0;
 			$('#options').fadeOut(function () {
-				$('#questions, #useranswer').fadeIn(function() {
+				$('#questions, #useranswer').fadeIn(function () {
 					$("#answer").focus();
 				});
 			});
@@ -403,12 +444,12 @@
 	 * *********** */
 	$(document).ready(function () {
 
-		i18n.init(function(err, t) {
+		i18n.init(function (err, t) {
 			$('.i18n').i18n();
 			document.title = t('labels.appName');
 		});
 
-		$("input[type=number]").change(function(e) {
+		$("input[type=number]").change(function (e) {
 			var value = parseInt($(this).val());
 			$(this).val(!isNaN(value) ? value : $(this).prop("defaultValue"));
 		});
