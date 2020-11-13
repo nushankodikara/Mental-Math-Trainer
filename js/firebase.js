@@ -1,3 +1,4 @@
+/* Initialization */
 var provider = new firebase.auth.GoogleAuthProvider();
 provider.addScope('https://www.googleapis.com/auth/contacts.readonly');
 
@@ -6,6 +7,7 @@ $('.blogin').fadeIn();
 var userObj;
 var catt;
 
+/* Licence Check */
 function authCheck() {
     firebase.database().ref(`smat/${userObj.uid}/`).update({
         authCheck: 1
@@ -32,6 +34,7 @@ function authCheck() {
     }, 3000);
 }
 
+/* authentication check */
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
         userObj = user;
@@ -41,6 +44,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     }
 });
 
+/* login function */
 function login() {
 
     firebase.auth().signInWithPopup(provider).then(function (result) {
@@ -52,6 +56,7 @@ function login() {
 
 }
 
+/* Sign out function */
 function signOut() {
     firebase.auth().signOut().then(function () {
         alert('Signed Out Successfully!')
@@ -60,6 +65,7 @@ function signOut() {
     });
 }
 
+/* After logging in */
 function loggedIn() {
     drawProgression();
     $('.alogin').fadeIn();
@@ -67,11 +73,13 @@ function loggedIn() {
     $('.name').text(userObj.displayName);
 }
 
+/* After Logging Out */
 function loggedOut() {
     $('.alogin').fadeOut();
     $('.blogin').fadeIn();
 }
 
+/* Writing the current attempt to the database */
 function writeCurrentAttempt() {
     var nat = catt + 1;
     firebase.database().ref(`smat/${userObj.uid}/`).update({
@@ -79,6 +87,7 @@ function writeCurrentAttempt() {
     });
 }
 
+/* Writing scores to the database */
 function writeScore(cps) {
     firebase.database().ref(`smat/${userObj.uid}/Attempts/${catt}`).update({
         cps: cps
@@ -143,7 +152,7 @@ function drawProgression() {
         var options = {
             axisX: {
                 labelInterpolationFnc: function (value) {
-                    return 'Attempt ' + value;
+                    return 'A' + value;
                 }
             }
         };
@@ -154,7 +163,7 @@ function drawProgression() {
                 showPoint: false,
                 axisX: {
                     labelInterpolationFnc: function (value) {
-                        return 'Attempt ' + value;
+                        return 'A' + value;
                     }
                 }
             }],
