@@ -99,8 +99,6 @@ function writeScore(cps) {
         });
         writeCurrentAttempt();
         TimeInt = new Date();
-    } else {
-        alert("Wow There! Take a break, Everyone needs some rest isn't it?")
     }
 
 }
@@ -120,7 +118,6 @@ function drawProgression() {
             lab.push(childKey)
             avg.push(parseFloat(childData.cps));
         });
-        console.log(avg)
         $('.avg').text(math.mean(avg).toFixed(3));
         /* Preparing for the chart */
         for (var i = avg.length - 1; i >= 0; i--) {
