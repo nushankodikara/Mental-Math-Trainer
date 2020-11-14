@@ -87,12 +87,22 @@ function writeCurrentAttempt() {
     });
 }
 
+/* Add time intervals */
+var TimeInt = new Date();
+TimeInt = new Date(TimeInt.getTime() - 60000);
 /* Writing scores to the database */
 function writeScore(cps) {
-    firebase.database().ref(`smat/${userObj.uid}/Attempts/${catt}`).update({
-        cps: cps
-    });
-    writeCurrentAttempt();
+    CT = new Date();
+    if ((TimeInt.getTime() + 60000) < (CT.getTime())) {
+        firebase.database().ref(`smat/${userObj.uid}/Attempts/${catt}`).update({
+            cps: cps
+        });
+        writeCurrentAttempt();
+        TimeInt = new Date();
+    } else {
+        alert("Wow There! Take a break, Everyone needs some rest isn't it?")
+    }
+
 }
 
 function drawProgression() {
@@ -102,20 +112,15 @@ function drawProgression() {
         var avg = [];
         var lar = [];
         var dar = [];
-        var cvg = 0;
         var cnt = 0;
+        /* retrieving values from database */
         snapshot.forEach(function (childSnapshot) {
             var childKey = childSnapshot.key;
             var childData = childSnapshot.val();
             lab.push(childKey)
             avg.push(childData.cps);
         });
-        for (i in avg) {
-            cvg += parseFloat(avg[i]);
-        }
-        cvg /= avg.length;
-        $('.avg').text(cvg.toFixed(3));
-
+        $('.avg').text(math.mean(avg).toFixed(3));
         /* Preparing for the chart */
         for (var i = avg.length - 1; i >= 0; i--) {
             if (cnt == 20) {
@@ -128,14 +133,16 @@ function drawProgression() {
         }
         lar.reverse();
         dar.reverse();
-
-        /* Write Progression */
-        if ((parseFloat(dar[0]) - parseFloat(dar[dar.length - 1])) < 0) {
+        /* Write Progression Report */
+        if (math.std(dar).toFixed(3) < 0.012) {
+            $('.prep').text("isn't changing that-much.");
+            $('.quote').text("You are maintaining a steady rate, Try harder to increase it.");
+        } else if ((math.mean(dar) - parseFloat(dar[dar.length - 1])) < 0) {
             $('.prep').text("is Increasing");
             $('.quote').text("Good Work! Keep it up.");
-        } else if ((parseFloat(dar[0]) == parseFloat(dar[dar.length - 1]))) {
-            $('.prep').text("isn't Evolving");
-            $('.quote').text("Try Harder!");
+        } else if ((math.mean(dar) == parseFloat(dar[dar.length - 1]))) {
+            $('.prep').text("is Average.");
+            $('.quote').text("You are sticking with your peek performance, Try Harder! You can do better!");
         } else {
             $('.prep').text("is Decreasing!");
             $('.quote').text("You must seriously consider the situation, Maybe take some rest?");

@@ -81,3 +81,7 @@ body {
 .ct-grid {
     stroke: rgba(255, 255, 255, 0.4);
 }
+
+.alogin {
+    display: none;
+}

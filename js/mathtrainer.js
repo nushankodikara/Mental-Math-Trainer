@@ -352,6 +352,7 @@
 				seconds = (parseInt(config.minutes * 60))
 				var rate = (parseInt(stats.total) / parseInt(seconds)).toFixed(3)
 				writeScore(rate)
+				console.log("Ran", timeString)
 			} else {
 				seconds = (parseInt(timeString.split(':')[0]) * 60 + parseInt(timeString.split(':')[1]))
 			}
