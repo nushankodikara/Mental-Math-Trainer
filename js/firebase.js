@@ -118,8 +118,9 @@ function drawProgression() {
             var childKey = childSnapshot.key;
             var childData = childSnapshot.val();
             lab.push(childKey)
-            avg.push(childData.cps);
+            avg.push(parseFloat(childData.cps));
         });
+        console.log(avg)
         $('.avg').text(math.mean(avg).toFixed(3));
         /* Preparing for the chart */
         for (var i = avg.length - 1; i >= 0; i--) {
