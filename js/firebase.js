@@ -17,8 +17,8 @@ function authCheck() {
             auth = snapshot.val() || 0;
             if (!auth) {
                 loggedOut()
-                alert('Please Contact +94724874919 on whatsapp for Permission. If you already paid for this month, Please report to prasadskodikara@gmail.com')
                 signOut()
+                window.location.href = "./Payment.html";
             } else {
                 firebase.database().ref(`smat/${userObj.uid}/`).update({
                     authCheck: 0

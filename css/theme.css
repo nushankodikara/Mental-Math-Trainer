@@ -85,3 +85,7 @@ body {
 .alogin {
     display: none;
 }
+
+.payment-details {
+    padding: 25px;
+}
