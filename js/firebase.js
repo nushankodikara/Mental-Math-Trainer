@@ -223,6 +223,8 @@ function drawProgression() {
     });
 }
 
+/* You seems to be interested about this application, hit me up on FB for more information https://www.facebook.com/nushan.kodikara.7/ We can discuss a lot more! */
+
 /* Feedback System */
 function mail() {
     window.location.href = (`mailto:speedmathslk@gmail.com?subject=Feedback%20From%20${encodeURIComponent($('#uid-text').val())}&body=${encodeURIComponent($('#feedback-text').val())}`)
