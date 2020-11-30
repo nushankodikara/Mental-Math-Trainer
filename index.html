@@ -1,1 +1,228 @@
-<!DOCTYPE html><html lang="en"><head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0"> <title>Speed Math Trainer</title> <link rel="stylesheet" href="./css/style.css"> <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css"> <link rel="stylesheet" href="./node_modules/fullpage.js/dist/fullpage.min.css"> <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon"></head><body style="background-color: black;"> <div id="bgimg"></div><div id="fullpage"> <div class="section"> <nav class="navbar navbar-expand-lg navbar-dark"> <a class="navbar-brand" href="#"> <h3> <span style="color: red;"> < </span> Speed Maths Trainer <span style="color: red;">/> </span> </h3> </a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <div class="collapse navbar-collapse" id="navbarSupportedContent"> <ul class="navbar-nav mr-auto"> <li class="nav-item active"> <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a> </li><li class="nav-item"> <a class="nav-link" href="#Payment">Payment</a> </li><li class="nav-item"> <a class="nav-link" href="news.html">Latest News</a> </li><li class="nav-item"> <a class="nav-link" href="#LogIn">Log In</a> </li><li class="nav-item"> <a class="nav-link btn btn-outline-warning" data-toggle="modal" data-target="#signupModal" href="#">Sign Up</a> </li></ul> </div></nav> <div class="homeWelcome"> <h1><span style="color: red;"> < </span> Speed Maths Trainer <span style="color: red;">/> </span></h1> <div class="conDiv"> Speed Maths program is designed to monitor and train your brain to it's maximum calculation speed via Machine learning algorithms through a series of quick math problems. Your objective is to complete problems as quick as possible. <br><br>We will generate daily reports indicating your overall progression and development. Also Video lessons will be released monthly ( Accessible for a month ) and lessons will be only available for the paid users. </div><br><br><div style="display: flex; flex-direction: row; gap: 1em;"> <a class="nav-link btn btn-outline-danger" data-toggle="modal" data-target="#signupModal" href="#">Sign Up</a> Or <a class="nav-link btn btn-outline-info" href="#LogIn">Log In</a> </div>Also You can read our <a class="nav-link btn btn-outline-success" href="instruction.html">User Guide</a> </div></div><div class="section"> <div class="conDiv"> <h2>Payment Details</h2> <p class="payment-details"> You have to make the payments before 15th of the month, all of the payments would reset on 1st of the following month. You can access the resources for the whole month without a limitation. After making the payment, Send your receipt to <a href="https://wa.me/94724874919">+94724874919</a> Through whatsapp WITH THE EMAIL ADDRESS or send the receipt through email to <a href="mailto:speedmathslk@gmail.com">speedmathslk@gmail.com</a> for verification. </p><table class="table"> <tr> <th>Price</th> <th>Valid For</th> </tr><tr> <td>Rs.500/=</td><td> 1 Month </td></tr><tr> <td>Rs.4800/=</td><td> 1 Year ( 20% Discount )</td></tr></table> <br><p>Payments can be settled through These Banks currently.</p><br><table class="table"> <thead class="thead-dark"> <tr> <th>Account Number</th> <th>Bank Name</th> <th>Branch</th> <th>Name</th> </tr></thead> <tbody> <tr> <td>8800040747</td><td>Commercial Bank</td><td>Bandarawela</td><td>K N T P Silva</td></tr><tr> <td>0006233807</td><td>Bank Of Ceylon</td><td>Diyathalawa</td><td>K N T P Silva</td></tr><tr> <td>037200150057580</td><td>People's Bank</td><td>Bandarawela</td><td>K N T P Silva</td></tr></tbody> </table> </div></div><div class="section"> <form onsubmit="login();return false"> <div class="form-group"> <label for="sign-in-email">Email address</label> <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" required> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> </div><div class="form-group"> <label for="sign-in-pass">Password</label> <input type="password" class="form-control" id="sign-in-pass" required> </div><div class="form-group form-check"> <input type="checkbox" class="form-check-input" id="Signincheck" required> <label class="form-check-label" for="Signincheck">I Agree to Terms And Conditions</label> </div><div class="form-group"> <a href="#ResetPassword">Forgot your password?</a> </div><button id="loginButton" type="submit" class="btn btn-primary">Log In</button> </form> </div><div class="section"> <form onsubmit="resetPassword();return false"> <div class="form-group"> <label for="reset-email">Email address</label> <input type="email" class="form-control" id="reset-email" aria-describedby="emailHelp" required> <small id="emailHelp" class="form-text text-muted">Enter Your E-Mail to send a reset link</small> </div><button type="submit" class="btn btn-primary">Reset Password</button> </form> </div></div><div class="modal fade " id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true"> <div class="modal-dialog modal-dialog-centered"> <div class="modal-content bg-dark"> <div class="modal-header"> <h5 class="modal-title" id="signupModalLabel">Sign Up Forum</h5> </div><div class="modal-body"> <form onsubmit="signUp();return false;"> <div class="form-group"> <label for="sign-up-email">Email address</label> <input type="email" class="form-control" id="sign-up-email" aria-describedby="emailHelp" required> <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> </div><div class="form-group"> <label for="full-name">Full Name</label> <input type="text" class="form-control" id="full-name" required> </div><div class="form-group"> <label for="sign-up-pass">Password</label> <input type="password" minlength="6" maxlength="12" class="form-control" id="sign-up-pass" required> </div><div class="form-group"> <label for="sign-up-cpass">Confirm Password</label> <input type="password" class="form-control" id="sign-up-cpass" required> </div><div class="form-group form-check"> <input type="checkbox" class="form-check-input" id="Signupcheck" required> <label class="form-check-label" for="Signupcheck">I Agree to Terms And Conditions</label> </div><button type="submit" id="signupButton" class="btn btn-primary">Sign Up</button> </form> </div></div></div></div><script src="./node_modules/jquery/dist/jquery.min.js"></script> <script src="./node_modules/fullpage.js/dist/fullpage.js"></script> <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script> <script src="./node_modules/firebase/firebase-app.js"></script> <script src="./node_modules/firebase/firebase-auth.js"></script> <script src="./node_modules/firebase/firebase-database.js"></script> <script src="./js/indexinit.js"></script> <script src="./js/firebase.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Math Trainer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/fullpage.js/dist/fullpage.min.css">
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
+</head>
+
+<body style="background-color: black;">
+    <div id="bgimg"></div>
+    <div id="fullpage">
+        <div class="section">
+            <!-- Nav Menu -->
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#">
+                    <h3>
+                        <span style="color: red;">
+                            < </span>
+                                Speed Maths Trainer
+                                <span style="color: red;">
+                                    /> </span>
+                    </h3>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#Home">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#Payment">Payment</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="news.html">Latest News</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#LogIn">Log In</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-outline-warning" data-toggle="modal" data-target="#signupModal"
+                                href="#">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Nav End -->
+            <div class="homeWelcome">
+                <h1><span style="color: red;">
+                        < </span>
+                            Speed Maths Trainer
+                            <span style="color: red;">
+                                /> </span></h1>
+                <div class="conDiv">
+                    Speed Maths program is designed to monitor and train your brain to it's maximum calculation speed
+                    via Machine learning algorithms through a series of quick math problems. Your objective is to
+                    complete problems as quick as possible.
+                    <br><br>
+                    We will generate daily reports indicating your overall progression and development. Also Video
+                    lessons will be released monthly ( Accessible for a month ) and lessons will be only available for
+                    the paid users.
+                </div>
+                <br><br>
+                <div style="display: flex; flex-direction: row; gap: 1em;">
+                    <a class="nav-link btn btn-outline-danger" data-toggle="modal" data-target="#signupModal"
+                        href="#">Sign Up</a> Or <a class="nav-link btn btn-outline-info" href="#LogIn">Log In</a>
+                </div>
+                Also You can read our
+                <a class="nav-link btn btn-outline-success" href="instruction.html">User
+                    Guide</a>
+            </div>
+        </div>
+        <div class="section">
+            <div class="conDiv">
+                <h2>Payment Details</h2>
+
+                <p class="payment-details">
+                    You have to make the payments before 15th of the month, all of the payments would reset on 1st of
+                    the
+                    following month. You can access the resources for the whole month without a limitation. After making
+                    the
+                    payment, Send your receipt to <a href="https://wa.me/94724874919">+94724874919</a> Through whatsapp
+                    WITH THE
+                    EMAIL ADDRESS or send the receipt
+                    through email to <a href="mailto:speedmathslk@gmail.com">speedmathslk@gmail.com</a> for
+                    verification.
+                </p>
+                <table class="table">
+                    <tr>
+                        <th>Price</th>
+                        <th>Valid For</th>
+                    </tr>
+                    <tr>
+                        <td>Rs.500/=</td>
+                        <td> 1 Month </td>
+                    </tr>
+                    <tr>
+                        <td>Rs.4800/=</td>
+                        <td> 1 Year ( 20% Discount )</td>
+                    </tr>
+                </table>
+                <br>
+                <p>Payments can be settled through These Banks currently.</p>
+                <br>
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>Account Number</th>
+                            <th>Bank Name</th>
+                            <th>Branch</th>
+                            <th>Name</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>8800040747</td>
+                            <td>Commercial Bank</td>
+                            <td>Bandarawela</td>
+                            <td>K N T P Silva</td>
+                        </tr>
+                        <tr>
+                            <td>0006233807</td>
+                            <td>Bank Of Ceylon</td>
+                            <td>Diyathalawa</td>
+                            <td>K N T P Silva</td>
+                        </tr>
+                        <tr>
+                            <td>037200150057580</td>
+                            <td>People's Bank</td>
+                            <td>Bandarawela</td>
+                            <td>K N T P Silva</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="section">
+            <form onsubmit="login();return false">
+                <div class="form-group">
+                    <label for="sign-in-email">Email address</label>
+                    <input type="email" class="form-control" id="sign-in-email" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="sign-in-pass">Password</label>
+                    <input type="password" class="form-control" id="sign-in-pass" required>
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="Signincheck" required>
+                    <label class="form-check-label" for="Signincheck">I Agree to Terms And Conditions</label>
+                </div>
+                <div class="form-group">
+                    <a href="#ResetPassword">Forgot your password?</a>
+                </div>
+                <button id="loginButton" type="submit" class="btn btn-primary">Log In</button>
+            </form>
+        </div>
+        <div class="section">
+            <form onsubmit="resetPassword();return false">
+                <div class="form-group">
+                    <label for="reset-email">Email address</label>
+                    <input type="email" class="form-control" id="reset-email" aria-describedby="emailHelp" required>
+                    <small id="emailHelp" class="form-text text-muted">Enter Your E-Mail to send a reset link</small>
+                </div>
+                <button type="submit" class="btn btn-primary">Reset Password</button>
+            </form>
+        </div>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade " id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content  bg-dark">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="signupModalLabel">Sign Up Forum</h5>
+                </div>
+                <div class="modal-body">
+                    <form onsubmit="signUp();return false;">
+                        <div class="form-group">
+                            <label for="sign-up-email">Email address</label>
+                            <input type="email" class="form-control" id="sign-up-email" aria-describedby="emailHelp"
+                                required>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input type="text" class="form-control" id="full-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-pass">Password</label>
+                            <input type="password" minlength="6" maxlength="12" class="form-control" id="sign-up-pass"
+                                required>
+                        </div>
+                        <div class="form-group">
+                            <label for="sign-up-cpass">Confirm Password</label>
+                            <input type="password" class="form-control" id="sign-up-cpass" required>
+                        </div>
+                        <div class="form-group form-check">
+                            <input type="checkbox" class="form-check-input" id="Signupcheck" required>
+                            <label class="form-check-label" for="Signupcheck">I Agree to Terms And Conditions</label>
+                        </div>
+                        <button type="submit" id="signupButton" class="btn btn-primary">Sign Up</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/fullpage.js/dist/fullpage.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/firebase/firebase-app.js"></script>
+    <script src="./node_modules/firebase/firebase-auth.js"></script>
+    <script src="./node_modules/firebase/firebase-database.js"></script>
+    <script src="./js/indexinit.js"></script>
+    <script src="./js/firebase.js"></script>
+</body>
+
+</html>

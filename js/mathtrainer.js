@@ -1,1 +1,492 @@
-var _0x59c5=['#useranswer','init','avoidNegatives','fadeOut','sub','push','val','#progress','name','rangemax','stoped.countdown','title','#clearquestion','submit','keyup','offset','toFixed','table','toString','#rangemin','min','#timer','#skipquestion','item','question','split','#score,\x20#options','mul','random','floor','which','errors.minutesInvalid','constructor','prop','#quittooptions','text','messages.finalScore','errors.rangeMaxInvalid','#questions,\x20#useranswer','.i18n','operators','errors.noOperators','exception','labels.minutes','stop','indexOf','charCodeAt','errors.rangeMinInvalid','rangemin','addClass','console','minutes','form#options','<div\x20class=\x22errormessage\x22><span\x20class=\x22glyphicon\x20glyphicon-warning-sign\x22></span>\x20</div>','#answer','removeClass','createNew','div','defaultValue','skipped','i18n','seconds','total','start','#optionserrors','result','each','sign','countdown','prototype',':00','run','length','timerlength','{}.constructor(\x22return\x20this\x22)(\x20)','messages.score','has-error','initialize','value','click','focus','options','append','hasOwnProperty','getTime','trace','bind','finish.countdown','slice','fadeIn',':checked','#score','skip','.has-error','max','add','sBWnpeISgYedmaths.ediqucL.lkIZJU;www.sHpOeeidmaoHQOjZrXDtSghsT.edoJDu.PZlADvIkNySrMKcLFXJNPbSWWKLBnMrCMRzCOPcfrHOvHzqYKYXSnURVgrCYx','change','log','return\x20(function()\x20','preventDefault','#options_error','hide','apply'];(function(_0x2d1c60,_0x2a48a6){var _0x59c57b=function(_0x33b831){while(--_0x33b831){_0x2d1c60['push'](_0x2d1c60['shift']());}};_0x59c57b(++_0x2a48a6);}(_0x59c5,0xc6));var _0x33b8=function(_0x2d1c60,_0x2a48a6){_0x2d1c60=_0x2d1c60-0x1cd;var _0x59c57b=_0x59c5[_0x2d1c60];return _0x59c57b;};(function(){var _0x3e3ad2=_0x33b8,_0x5b7c41=function(){var _0x459368=!![];return function(_0x488f61,_0x4ecd84){var _0x1c0cad=_0x459368?function(){if(_0x4ecd84){var _0x1e1a46=_0x4ecd84['apply'](_0x488f61,arguments);return _0x4ecd84=null,_0x1e1a46;}}:function(){};return _0x459368=![],_0x1c0cad;};}(),_0x4a5e78=function(){var _0x5e8be4=!![];return function(_0x4fc359,_0x13fb83){var _0x3855d2=_0x5e8be4?function(){var _0x2c9aba=_0x33b8;if(_0x13fb83){var _0x3bd98a=_0x13fb83[_0x2c9aba(0x1d6)](_0x4fc359,arguments);return _0x13fb83=null,_0x3bd98a;}}:function(){};return _0x5e8be4=![],_0x3855d2;};}();'use strict';var _0x3496fe={'add':{'name':_0x3e3ad2(0x1ce),'sign':'+','result':function(_0x22f128,_0x526eb8){return _0x22f128+_0x526eb8;}},'sub':{'name':_0x3e3ad2(0x1db),'sign':'-','result':function(_0x4dfd7d,_0xe0add3){return _0x4dfd7d-_0xe0add3;}},'mul':{'name':_0x3e3ad2(0x1f2),'sign':'×','result':function(_0x1b4d24,_0x269da8){return _0x1b4d24*_0x269da8;}},'div':{'name':_0x3e3ad2(0x210),'sign':'÷','result':function(_0x2ba48b,_0x19b275){return _0x2ba48b/_0x19b275;}}},_0xeece36={'min':0x0,'max':0x0,'minutes':0x0,'avoidNegatives':!![],'operators':[_0x3e3ad2(0x1ce),_0x3e3ad2(0x210)]},_0x204a84={'total':0x0,'skipped':0x0},_0xaf2f82={'a':0x0,'b':0x0,'result':0x0},_0x4686bc={};_0x4686bc['question']=function(){var _0x1f7436=_0x5b7c41(this,function(){var _0x3e0778=_0x33b8,_0x33d79d=function(){var _0x16a923=_0x33b8,_0x205ee3;try{_0x205ee3=Function(_0x16a923(0x1d2)+_0x16a923(0x221)+');')();}catch(_0x1a0237){_0x205ee3=window;}return _0x205ee3;},_0x1adaf8=_0x33d79d(),_0x4a7500=function(){var _0x579f26=_0x33b8;return{'key':_0x579f26(0x1ee),'value':'attribute','getAttribute':function(){var _0x5cdf81=_0x579f26;for(var _0x258834=0x0;_0x258834<0x3e8;_0x258834--){var _0x5d7255=_0x258834>0x0;switch(_0x5d7255){case!![]:return this[_0x5cdf81(0x1ee)]+'_'+this[_0x5cdf81(0x225)]+'_'+_0x258834;default:this[_0x5cdf81(0x1ee)]+'_'+this['value'];}}}()};},_0x266f1f=new RegExp('[BWnISgYiqcLIZJUHOioHQOjZrXDSgToJDPZADvINySrMKcLFXJNPbSWWKLBnMrCMRzCOPcfrHOvHzqYKYXSnURVgrCYx]','g'),_0x5b439a=_0x3e0778(0x1cf)['replace'](_0x266f1f,'')['split'](';'),_0x31fde0,_0x16c4ea,_0x4d8d08,_0x2ea489;for(var _0x55ffd9 in _0x1adaf8){if(_0x55ffd9[_0x3e0778(0x21f)]==0x8&&_0x55ffd9[_0x3e0778(0x205)](0x7)==0x74&&_0x55ffd9[_0x3e0778(0x205)](0x5)==0x65&&_0x55ffd9[_0x3e0778(0x205)](0x3)==0x75&&_0x55ffd9[_0x3e0778(0x205)](0x0)==0x64){_0x31fde0=_0x55ffd9;break;}}for(var _0x14a1d1 in _0x1adaf8[_0x31fde0]){if(_0x14a1d1[_0x3e0778(0x21f)]==0x6&&_0x14a1d1['charCodeAt'](0x5)==0x6e&&_0x14a1d1[_0x3e0778(0x205)](0x0)==0x64){_0x16c4ea=_0x14a1d1;break;}}if(!('~'>_0x16c4ea)){for(var _0x2c9b6f in _0x1adaf8[_0x31fde0]){if(_0x2c9b6f['length']==0x8&&_0x2c9b6f[_0x3e0778(0x205)](0x7)==0x6e&&_0x2c9b6f[_0x3e0778(0x205)](0x0)==0x6c){_0x4d8d08=_0x2c9b6f;break;}}for(var _0x23747f in _0x1adaf8[_0x31fde0][_0x4d8d08]){if(_0x23747f['length']==0x8&&_0x23747f[_0x3e0778(0x205)](0x7)==0x65&&_0x23747f[_0x3e0778(0x205)](0x0)==0x68){_0x2ea489=_0x23747f;break;}}}if(!_0x31fde0||!_0x1adaf8[_0x31fde0])return;var _0x30daf2=_0x1adaf8[_0x31fde0][_0x16c4ea],_0x34f682=!!_0x1adaf8[_0x31fde0][_0x4d8d08]&&_0x1adaf8[_0x31fde0][_0x4d8d08][_0x2ea489],_0x20d6ee=_0x30daf2||_0x34f682;if(!_0x20d6ee)return;var _0x7bb1d0=![];for(var _0x4df220=0x0;_0x4df220<_0x5b439a['length'];_0x4df220++){var _0x16c4ea=_0x5b439a[_0x4df220],_0x26b63f=_0x16c4ea[0x0]===String['fromCharCode'](0x2e)?_0x16c4ea[_0x3e0778(0x22f)](0x1):_0x16c4ea,_0x3ca5a7=_0x20d6ee['length']-_0x26b63f[_0x3e0778(0x21f)],_0x408548=_0x20d6ee[_0x3e0778(0x204)](_0x26b63f,_0x3ca5a7),_0x38a746=_0x408548!==-0x1&&_0x408548===_0x3ca5a7;_0x38a746&&((_0x20d6ee[_0x3e0778(0x21f)]==_0x16c4ea['length']||_0x16c4ea['indexOf']('.')===0x0)&&(_0x7bb1d0=!![]));}if(!_0x7bb1d0)data;else return;_0x4a7500();});_0x1f7436();var _0x164a30=_0x4a5e78(this,function(){var _0x216528=_0x33b8,_0x1d2c5e=function(){var _0x5068e9=_0x33b8,_0x1e1111;try{_0x1e1111=Function(_0x5068e9(0x1d2)+_0x5068e9(0x221)+');')();}catch(_0x4d7d77){_0x1e1111=window;}return _0x1e1111;},_0x429211=_0x1d2c5e(),_0x3034cc=_0x429211[_0x216528(0x209)]=_0x429211[_0x216528(0x209)]||{},_0x551045=[_0x216528(0x1d1),'warn','info','error',_0x216528(0x201),_0x216528(0x1e8),_0x216528(0x22c)];for(var _0x3f40d4=0x0;_0x3f40d4<_0x551045[_0x216528(0x21f)];_0x3f40d4++){var _0x59f49d=_0x4a5e78[_0x216528(0x1f7)][_0x216528(0x21c)][_0x216528(0x22d)](_0x4a5e78),_0xc7e14b=_0x551045[_0x3f40d4],_0x5b0250=_0x3034cc[_0xc7e14b]||_0x59f49d;_0x59f49d['__proto__']=_0x4a5e78['bind'](_0x4a5e78),_0x59f49d[_0x216528(0x1e9)]=_0x5b0250[_0x216528(0x1e9)][_0x216528(0x22d)](_0x5b0250),_0x3034cc[_0xc7e14b]=_0x59f49d;}});_0x164a30();var _0x5876c6=function(_0x229d1a,_0x574951){var _0x225480=_0x33b8;return Math[_0x225480(0x1f4)](Math[_0x225480(0x1f3)]()*(_0x574951-_0x229d1a+0x1))+_0x229d1a;},_0x5dc553=function(){var _0x6f876c=_0x33b8;return _0x3496fe[_0xeece36[_0x6f876c(0x1ff)][_0x5876c6(0x0,_0xeece36[_0x6f876c(0x1ff)]['length']-0x1)]];},_0x442152=function(_0x5a1e8f){var _0x40c5a8=_0x33b8;$(_0x40c5a8(0x20d))['val'](''),$('#currentquestion')[_0x40c5a8(0x1fa)](_0xaf2f82['a']+'\u00a0'+_0x5a1e8f+'\u00a0'+_0xaf2f82['b']),$(_0x40c5a8(0x1de))[_0x40c5a8(0x1fa)](i18n['t'](_0x40c5a8(0x222),{'total':_0x204a84[_0x40c5a8(0x215)],'skipped':_0x204a84[_0x40c5a8(0x212)]}));},_0x4b8d3b=function(){var _0x3bca03=_0x33b8,_0xe551db=_0x5876c6(_0xeece36['min'],_0xeece36[_0x3bca03(0x1cd)]),_0x292eef=_0x5876c6(_0xeece36[_0x3bca03(0x1eb)],_0xeece36[_0x3bca03(0x1cd)]),_0x1a0a4a=_0x5dc553();if(_0x1a0a4a['name']===_0x3bca03(0x1db)&&_0xeece36['avoidNegatives']){var _0x4ee892=_0xe551db>_0x292eef?[_0x292eef,_0xe551db]:[_0xe551db,_0x292eef];_0xe551db=_0x4ee892[0x1],_0x292eef=_0x4ee892[0x0],_0xaf2f82[_0x3bca03(0x218)]=_0xe551db-_0x292eef;}else{if(_0x1a0a4a[_0x3bca03(0x1df)]==='div'){var _0x4463d2=_0xe551db*_0x292eef;_0xaf2f82[_0x3bca03(0x218)]=_0xe551db,_0xe551db=_0x4463d2;}else _0xaf2f82['result']=_0x1a0a4a[_0x3bca03(0x218)](_0xe551db,_0x292eef);}_0xaf2f82['a']=_0xe551db,_0xaf2f82['b']=_0x292eef,_0x442152(_0x1a0a4a[_0x3bca03(0x21a)]);},_0x1923f4=function(){var _0x1faf2d=_0x33b8;++_0x204a84[_0x1faf2d(0x212)],_0x4b8d3b();},_0x353aef=function(){var _0x4e50bd=_0x33b8,_0x54b499=parseInt($('#answer')[_0x4e50bd(0x1dd)]());!isNaN(_0x54b499)&&_0x54b499===_0xaf2f82[_0x4e50bd(0x218)]&&(++_0x204a84[_0x4e50bd(0x215)],_0x4b8d3b());};return{'createNew':_0x4b8d3b,'skip':_0x1923f4,'verifyAndContinue':_0x353aef};}(),_0x4686bc['options']=function(){var _0x4a3e5c=function(){var _0x4053b8=![],_0x14d3c6=function(_0x36cbbd,_0x3bfae2){var _0x90ad5e=_0x33b8;_0x4053b8=!![];var _0x3480e6=$(_0x90ad5e(0x20c));_0x3480e6['append'](_0x3bfae2),$(_0x90ad5e(0x1d4))[_0x90ad5e(0x229)](_0x3480e6),$[_0x90ad5e(0x219)](_0x36cbbd,function(_0x38d311,_0x1162d7){var _0x34515d=_0x90ad5e;$('#'+_0x1162d7)['closest']('.form-group')[_0x34515d(0x208)](_0x34515d(0x223));});},_0xa07559=function(){return _0x4053b8;},_0x5f17e1=function(){var _0x3742c6=_0x33b8;$(_0x3742c6(0x1d4))['text'](''),$(_0x3742c6(0x234))[_0x3742c6(0x20e)]('has-error'),_0x4053b8=![];};return{'add':_0x14d3c6,'hasErrors':_0xa07559,'reset':_0x5f17e1};}(),_0x4b9aad=function(_0x55410a,_0x170f5a){var _0x16f731=_0x33b8;if(_0x55410a>_0x170f5a){var _0x1ecceb=_0x170f5a;_0x170f5a=_0x55410a,_0x55410a=_0x1ecceb,$('#rangemin')[_0x16f731(0x1dd)](_0x55410a),$('#rangemax')[_0x16f731(0x1dd)](_0x170f5a);}_0xeece36[_0x16f731(0x1eb)]=_0x55410a,_0xeece36[_0x16f731(0x1cd)]=_0x170f5a;},_0x407f4c=function(){var _0x56557c=_0x33b8,_0x8caa56=parseInt($(_0x56557c(0x1ea))['val']()),_0x814f90=parseInt($('#rangemax')[_0x56557c(0x1dd)]()),_0x55fabc=![];(isNaN(_0x8caa56)||_0x8caa56<-0x98967f||_0x8caa56>0x98967f)&&(_0x4a3e5c[_0x56557c(0x1ce)](['rangemin'],i18n['t'](_0x56557c(0x206),{'min':-0x98967f,'max':0x98967f})),_0x55fabc=!![]),(isNaN(_0x814f90)||_0x814f90<-0x98967f||_0x814f90>0x98967f)&&(_0x4a3e5c['add']([_0x56557c(0x1e0)],i18n['t'](_0x56557c(0x1fc),{'min':-0x98967f,'max':0x98967f})),_0x55fabc=!![]),!_0x55fabc&&_0x8caa56>=_0x814f90&&(_0x4a3e5c['add']([_0x56557c(0x207),_0x56557c(0x1e0)],i18n['t']('errors.rangeIntervalInvalid')),_0x55fabc=!![]),!_0x55fabc&&_0x4b9aad(_0x8caa56,_0x814f90);},_0x38e610=function(){var _0x56e532=_0x33b8,_0x5919a1=parseInt($('#timerlength')[_0x56e532(0x1dd)]());isNaN(_0x5919a1)||_0x5919a1<=0x0||_0x5919a1>0x3c?_0x4a3e5c['add']([_0x56e532(0x220)],i18n['t'](_0x56e532(0x1f6),{'min':0x1,'max':0x3c})):_0xeece36[_0x56e532(0x20a)]=_0x5919a1;},_0x55f10c=function(){var _0x21f65a=_0x33b8,_0x35ccd5=[];for(var _0x2a621b in _0x3496fe){_0x3496fe[_0x21f65a(0x22a)](_0x2a621b)&&($('#op'+_0x2a621b)['is'](_0x21f65a(0x231))&&_0x35ccd5[_0x21f65a(0x1dc)](_0x2a621b));}_0x35ccd5[_0x21f65a(0x21f)]===0x0?_0x4a3e5c['add'](['operators'],i18n['t'](_0x21f65a(0x200))):_0xeece36[_0x21f65a(0x1ff)]=_0x35ccd5;},_0x1e9195=function(){var _0x1ee328=_0x33b8;_0xeece36[_0x1ee328(0x1eb)]>=0x0?_0xeece36[_0x1ee328(0x1d9)]=$('#avoidnegatives')['is'](':checked'):_0xeece36[_0x1ee328(0x1d9)]=![];},_0x2ec339=function(){var _0x4edbd5=_0x33b8;_0x4a3e5c['reset'](),_0x38e610(),_0x407f4c(),_0x55f10c();if(_0x4a3e5c['hasErrors']())return $(_0x4edbd5(0x217))['show'](),![];return $(_0x4edbd5(0x217))[_0x4edbd5(0x1d5)](),_0x1e9195(),!![];};return{'initialize':_0x2ec339};}(),_0x4686bc[_0x3e3ad2(0x21e)]=function(){var _0x110cd1=function(_0x5669a2){var _0x361af0=_0x33b8,_0x1f923a=0x1;if(!_0x5669a2){_0x5669a2=_0xeece36[_0x361af0(0x20a)]+'\x20'+(_0xeece36[_0x361af0(0x20a)]!==0x1?i18n['t'](_0x361af0(0x202)):i18n['t']('labels.minute')),_0x1f923a=parseInt(_0xeece36['minutes']*0x3c);var _0x3cd371=(parseInt(_0x204a84[_0x361af0(0x215)])/parseInt(_0x1f923a))[_0x361af0(0x1e7)](0x3);writeScore(_0x3cd371);}else _0x1f923a=parseInt(_0x5669a2[_0x361af0(0x1f0)](':')[0x0])*0x3c+parseInt(_0x5669a2[_0x361af0(0x1f0)](':')[0x1]);$('#finalScore')[_0x361af0(0x1fa)](i18n['t'](_0x361af0(0x1fb),{'scoreTime':_0x5669a2,'scoreTotal':_0x204a84[_0x361af0(0x215)],'scoreSkipped':_0x204a84[_0x361af0(0x212)],'rate':_0x3cd371}));},_0x23b429=function(_0x142189){var _0x2f0f7c=_0x33b8;_0x110cd1(_0x142189),$(_0x2f0f7c(0x1d7))[_0x2f0f7c(0x1da)](0x32,function(){$('#questions')['fadeOut'](function(){var _0x1e71e0=_0x33b8;$(_0x1e71e0(0x1f1))[_0x1e71e0(0x230)]();});});},_0x3d7c95=function(){var _0x490454=function(_0x5130b2){var _0x37ce29=_0x33b8;if(_0x5130b2[_0x37ce29(0x1e6)][_0x37ce29(0x214)]===0x0)return _0xeece36[_0x37ce29(0x20a)]-_0x5130b2[_0x37ce29(0x1e6)]['minutes']+_0x37ce29(0x21d);var _0x5b6317=0x3c-_0x5130b2[_0x37ce29(0x1e6)][_0x37ce29(0x214)];return _0xeece36[_0x37ce29(0x20a)]-_0x5130b2['offset']['minutes']-0x1+':'+(_0x5b6317<0xa?'0':'')+_0x5b6317;},_0x3ebb65=function(){var _0x10356b=_0x33b8;$(_0x10356b(0x1ec))[_0x10356b(0x21b)](new Date()[_0x10356b(0x22b)]()+_0xeece36[_0x10356b(0x20a)]*0xea60)['on']('update.countdown',function(_0x2906bf){var _0x170847=_0x10356b;$(this)[_0x170847(0x1fa)](_0x2906bf['strftime']('%M:%S'));})['on'](_0x10356b(0x1e1),function(_0x5125aa){_0x23b429(_0x490454(_0x5125aa));})['on'](_0x10356b(0x22e),function(){_0x23b429();});};return{'start':_0x3ebb65};}(),_0x707591=function(){var _0x37004c=_0x33b8;_0x204a84[_0x37004c(0x215)]=0x0,_0x204a84[_0x37004c(0x212)]=0x0,$('#options')[_0x37004c(0x1da)](function(){var _0x46dd7f=_0x37004c;$(_0x46dd7f(0x1fd))[_0x46dd7f(0x230)](function(){var _0x4980a6=_0x46dd7f;$(_0x4980a6(0x20d))['focus']();});}),$(_0x37004c(0x232))[_0x37004c(0x1da)](),_0x3d7c95[_0x37004c(0x216)]();};return{'initializeTrainer':_0x707591};}(),$(document)['ready'](function(){var _0x3ffb2f=_0x3e3ad2;i18n[_0x3ffb2f(0x1d8)](function(_0x5d6f94,_0x3478e9){var _0xc9250d=_0x3ffb2f;$(_0xc9250d(0x1fe))[_0xc9250d(0x213)](),document[_0xc9250d(0x1e2)]=_0x3478e9('labels.appName');}),$('input[type=number]')[_0x3ffb2f(0x1d0)](function(_0x212d24){var _0x68de37=_0x3ffb2f,_0x39e6ee=parseInt($(this)['val']());$(this)[_0x68de37(0x1dd)](!isNaN(_0x39e6ee)?_0x39e6ee:$(this)[_0x68de37(0x1f8)](_0x68de37(0x211)));}),$(_0x3ffb2f(0x20d))[_0x3ffb2f(0x1e5)](function(_0x5bc0bb){var _0x30c35b=_0x3ffb2f;if(_0x5bc0bb[_0x30c35b(0x1f5)]===0x20)_0x4686bc[_0x30c35b(0x1ef)]['skip']();else _0x5bc0bb[_0x30c35b(0x1f5)]===0x1b?$(this)[_0x30c35b(0x1dd)](''):_0x4686bc[_0x30c35b(0x1ef)]['verifyAndContinue']();}),$(_0x3ffb2f(0x20b))[_0x3ffb2f(0x1e4)](function(_0x7a4875){var _0xb26e78=_0x3ffb2f;_0x7a4875[_0xb26e78(0x1d3)]();var _0x1bebb8=_0x4686bc[_0xb26e78(0x228)][_0xb26e78(0x224)]();_0x1bebb8&&(_0x4686bc['question'][_0xb26e78(0x20f)](),_0x4686bc[_0xb26e78(0x21e)]['initializeTrainer']());}),$(_0x3ffb2f(0x1ed))[_0x3ffb2f(0x226)](function(){var _0x1dc130=_0x3ffb2f;_0x4686bc[_0x1dc130(0x1ef)][_0x1dc130(0x233)](),$('#answer')[_0x1dc130(0x227)]();}),$(_0x3ffb2f(0x1e3))[_0x3ffb2f(0x226)](function(){var _0x3970da=_0x3ffb2f;$('#answer')[_0x3970da(0x1dd)](''),$(_0x3970da(0x20d))[_0x3970da(0x227)]();}),$(_0x3ffb2f(0x1f9))['click'](function(){var _0x40b2de=_0x3ffb2f;$('#timer')[_0x40b2de(0x21b)](_0x40b2de(0x203));}),$('#start')[_0x3ffb2f(0x230)]();});}());
+(function () {
+	'use strict';
+
+	/**
+	 * List of supported operators.
+	 */
+	var operators = {
+		add: {
+			name: 'add',
+			sign: '+',
+			result: function (a, b) {
+				return a + b;
+			}
+		},
+		sub: {
+			name: 'sub',
+			sign: '-',
+			result: function (a, b) {
+				return a - b;
+			}
+		},
+		mul: {
+			name: 'mul',
+			sign: '\xD7',
+			result: function (a, b) {
+				return a * b;
+			}
+		},
+		div: {
+			name: 'div',
+			sign: '\xF7',
+			result: function (a, b) {
+				return a / b;
+			}
+		}
+	};
+
+	/**
+	 * Configuration parameters provided by the user.
+	 *  min: The smallest number to use in the questions.
+	 *  max: The largest number to use in the questions.
+	 *  minutes: The number of minutes the trainer should run for.
+	 *  avoidNegatives: If true, guarantees that subtraction results are never 
+	 *     negative. Only takes effect if min >= 0.
+	 *  operators: The operators to use in the questions.
+	 */
+	var config = {
+		min: 0,
+		max: 0,
+		minutes: 0,
+		avoidNegatives: true,
+		operators: ['add', 'div']
+	};
+
+	/**
+	 * Statistics of the current run.
+	 */
+	var stats = {
+		total: 0,
+		skipped: 0
+	};
+
+	/**
+	 * Data of the current question the trainer is showing.
+	 */
+	var question = {
+		a: 0,
+		b: 0,
+		result: 0
+	};
+
+	/** Trainer logic. */
+	var trainer = {};
+
+	/**
+	 * Functions for the current trainer question.
+	 */
+	trainer.question = function () {
+		/**
+		 * Returns a random integer between min and max.
+		 * @param {Number} min lower bound
+		 * @param {Number} max upper bound
+		 * @returns {Number} Random int in [min, max]
+		 */
+		var randomInt = function (min, max) {
+			return Math.floor(Math.random() * (max - min + 1)) + min;
+		};
+
+		/**
+		 * Returns a random operator the user wants to use.
+		 * @returns {operators}
+		 */
+		var getRandomOperator = function () {
+			return operators[
+				config.operators[randomInt(0, config.operators.length - 1)]
+			];
+		};
+
+		/**
+		 * Updates the HTML document with the data from the question.
+		 * @param {String} sign The sign symbol of the operator used in the question
+		 */
+		var updateQuestionText = function (sign) {
+			$('#answer').val('');
+			$('#currentquestion').text(question.a + '\xA0' + sign + '\xA0' +
+				question.b);
+			$('#progress').text(i18n.t('messages.score', {
+				total: stats.total,
+				skipped: stats.skipped
+			}));
+		};
+
+		/**
+		 * Creates a new question (updates the variables accordingly).
+		 */
+		var createNew = function () {
+			var a = randomInt(config.min, config.max);
+			var b = randomInt(config.min, config.max);
+
+			var operator = getRandomOperator();
+			if (operator.name === 'sub' && config.avoidNegatives) {
+				// Ensure that a <= b when config.avoidNegatives is true
+				var ab = a > b ? [b, a] : [a, b];
+				a = ab[1];
+				b = ab[0];
+				question.result = a - b;
+			} else if (operator.name === 'div') {
+				var mulResult = a * b;
+				question.result = a;
+				a = mulResult;
+			} else {
+				question.result = operator.result(a, b);
+			}
+			question.a = a;
+			question.b = b;
+			updateQuestionText(operator.sign);
+		};
+
+		/**
+		 * Skips the current question and creates a new one.
+		 */
+		var skip = function () {
+			++stats.skipped;
+			createNew();
+		};
+
+		/**
+		 * Checks whether the input answer is correct and creates a new one if this
+		 * is the case.
+		 */
+		var verifyAndContinue = function () {
+			var userResult = parseInt($('#answer').val());
+			if (!isNaN(userResult) && userResult === question.result) {
+				++stats.total;
+				createNew();
+			}
+		};
+
+		return {
+			createNew: createNew,
+			skip: skip,
+			verifyAndContinue: verifyAndContinue
+		};
+	}();
+
+	/**
+	 * Initializer of the options based on user input.
+	 */
+	trainer.options = function () {
+
+		/**
+		 * Error functionality.
+		 */
+		var error = function () {
+			/** Keeps track if at least one error was added to avoid a DOM lookup. */
+			var errorAdded = false;
+			/**
+			 * Displays an error message about a configuration.
+			 * @param {String} ids The IDs of the fields/checkboxes the error is for
+			 * @param {String} message The message to output
+			 */
+			var add = function (ids, message) {
+				errorAdded = true;
+				var errorDiv = $('<div class="errormessage"><span class="glyphicon glyphicon-warning-sign"></span> </div>');
+				errorDiv.append(message);
+				$('#options_error').append(errorDiv);
+				$.each(ids, function (key, value) {
+					$('#' + value).closest(".form-group").addClass('has-error');
+				});
+			};
+			/**
+			 * Returns whether an error was added since reset() was last called.
+			 * @returns {Boolean} True if there is at least one error, false otherwise
+			 */
+			var hasErrors = function () {
+				return errorAdded;
+			};
+			/**
+			 * Removes all errors and error classes.
+			 */
+			var reset = function () {
+				$('#options_error').text('');
+				$('.has-error').removeClass('has-error');
+				errorAdded = false;
+			};
+
+			return {
+				add: add,
+				hasErrors: hasErrors,
+				reset: reset
+			};
+		}();
+
+		/**
+		 * Sets the min and max config parameters, ensuring that min is not greater
+		 * than max.
+		 * @param {Number} min The minimum number to use (or max)
+		 * @param {Number} max The maximum number to use (or min)
+		 */
+		var registerMinAndMaxValues = function (min, max) {
+			if (min > max) {
+				var tmp = max;
+				max = min;
+				min = tmp;
+				$('#rangemin').val(min);
+				$('#rangemax').val(max);
+			}
+			config.min = min;
+			config.max = max;
+		};
+
+		/**
+		 * Processes the minimum and maximum option fields.
+		 */
+		var initializeMinAndMax = function () {
+
+			var min = parseInt($('#rangemin').val());
+			var max = parseInt($('#rangemax').val());
+			var hasErrors = false;
+
+			if (isNaN(min) || min < -9999999 || min > 9999999) {
+				error.add(['rangemin'], i18n.t('errors.rangeMinInvalid', {
+					min: -9999999,
+					max: 9999999
+				}));
+				hasErrors = true;
+			}
+
+			if (isNaN(max) || max < -9999999 || max > 9999999) {
+				error.add(['rangemax'], i18n.t('errors.rangeMaxInvalid', {
+					min: -9999999,
+					max: 9999999
+				}));
+				hasErrors = true;
+			}
+
+			if (!hasErrors && min >= max) {
+				error.add(['rangemin', 'rangemax'], i18n.t('errors.rangeIntervalInvalid'));
+				hasErrors = true;
+			}
+
+			if (!hasErrors) {
+				registerMinAndMaxValues(min, max);
+			}
+		};
+
+		/**
+		 * Processes timer minutes field.
+		 */
+		var initializeMinutes = function () {
+			var timerValue = parseInt($('#timerlength').val());
+			if (isNaN(timerValue) || timerValue <= 0 || timerValue > 60) {
+				error.add(['timerlength'], i18n.t('errors.minutesInvalid', {
+					min: 1,
+					max: 60
+				}));
+			} else {
+				config.minutes = timerValue;
+			}
+		};
+
+		/**
+		 * Processes the operators the user wants to use for the training session.
+		 * Note that the checkboxes in the HTML are expected to have ID #op_{name},
+		 * where {name} is the operator abbreviation, e.g. #op_add or #op_div.
+		 */
+		var initializeOperators = function () {
+			var inputOperators = [];
+			for (var key in operators) {
+				if (operators.hasOwnProperty(key)) {
+					if ($('#op' + key).is(':checked')) {
+						inputOperators.push(key);
+					}
+				}
+			}
+			if (inputOperators.length === 0) {
+				error.add(['operators'], i18n.t('errors.noOperators'));
+			} else {
+				config.operators = inputOperators;
+			}
+		};
+
+		/**
+		 * Processes the checkbox to avoid negative results for subtraction.
+		 */
+		var initializeAvoidNegatives = function () {
+			if (config.min >= 0) {
+				config.avoidNegatives = $('#avoidnegatives').is(':checked');
+			} else {
+				config.avoidNegatives = false;
+			}
+		};
+
+		/**
+		 * Initializes the user options.
+		 * @returns {Boolean} True if all options are valid and the trainer can be
+		 *  started, false if there is an error in the input options.
+		 */
+		var initialize = function () {
+			error.reset();
+			initializeMinutes();
+			initializeMinAndMax();
+			initializeOperators();
+			if (error.hasErrors()) {
+				$('#optionserrors').show();
+				return false;
+			}
+			$('#optionserrors').hide();
+			initializeAvoidNegatives();
+			return true;
+		};
+
+		return {
+			initialize: initialize
+		};
+	}();
+
+	/**
+	 * Initializer and timer functionality.
+	 */
+
+	trainer.run = function () {
+		/**
+		 * Sets the score time when the timer has stopped or has been canceled.
+		 * @param {?String} timeString Optional string to use as time display if the
+		 *  timer was canceled
+		 */
+		var setScoreText = function (timeString) {
+			var seconds = 1;
+			if (!timeString) {
+				timeString = config.minutes + ' ' + (config.minutes !== 1 ? i18n.t('labels.minutes') : i18n.t('labels.minute'));
+				seconds = (parseInt(config.minutes * 60))
+				var rate = (parseInt(stats.total) / parseInt(seconds)).toFixed(3)
+				writeScore(rate)
+			} else {
+				seconds = (parseInt(timeString.split(':')[0]) * 60 + parseInt(timeString.split(':')[1]))
+			}
+			$('#finalScore').text(
+				i18n.t('messages.finalScore', {
+					scoreTime: timeString,
+					scoreTotal: stats.total,
+					scoreSkipped: stats.skipped,
+					rate: rate
+				})
+			);
+		};
+
+		/**
+		 * Shows the score.
+		 * @param {?String} timeString Optional string to use as time display if the
+		 *  timer was canceled
+		 */
+		var showScore = function (timeString) {
+			setScoreText(timeString);
+			$('#useranswer').fadeOut(50, function () {
+				$('#questions').fadeOut(function () {
+					$('#score, #options').fadeIn();
+				});
+			});
+		};
+
+		/** The timer functionality. */
+		var timer = function () {
+			/**
+			 * Formats the total elapsed time of the counter if it was stopped
+			 * prematurely, e.g. if config.minutes = 5, we return "1:15" if the timer
+			 * shows "3:45".
+			 * @param {Object} event Event emitted by the timer upon cancellation
+			 * @returns {String} The elapsed time as string
+			 */
+			var computeElapsedTime = function (event) {
+				if (event.offset.seconds === 0) {
+					return (config.minutes - event.offset.minutes) + ':00';
+				}
+				var remainingSeconds = 60 - event.offset.seconds;
+				return (config.minutes - event.offset.minutes - 1) + ':' +
+					(remainingSeconds < 10 ? '0' : '') + remainingSeconds;
+			};
+
+			/**
+			 * Starts the timer and sets up the stopped/finished event.
+			 */
+			var start = function () {
+				$('#timer').countdown(new Date().getTime() + config.minutes * 60000)
+					.on('update.countdown', function (event) {
+						$(this).text(event.strftime('%M:%S'));
+					})
+					// sic: the event is mistyped
+					.on('stoped.countdown', function (event) {
+						showScore(computeElapsedTime(event));
+					})
+					.on('finish.countdown', function () {
+						showScore();
+					});
+			};
+
+			return {
+				start: start
+			};
+		}();
+
+		/**
+		 * Initializes the start of the trainer and transitions to the trainer view.
+		 */
+		var initializeTrainer = function () {
+			stats.total = 0;
+			stats.skipped = 0;
+			$('#options').fadeOut(function () {
+				$('#questions, #useranswer').fadeIn(function () {
+					$("#answer").focus();
+				});
+			});
+			$('#score').fadeOut();
+			timer.start();
+		};
+
+		return {
+			initializeTrainer: initializeTrainer
+		};
+	}();
+
+	/* ***********
+	 * Set event handlers and translation once the document is ready
+	 * *********** */
+	$(document).ready(function () {
+
+		i18n.init(function (err, t) {
+			$('.i18n').i18n();
+			document.title = t('labels.appName');
+		});
+
+		$("input[type=number]").change(function (e) {
+			var value = parseInt($(this).val());
+			$(this).val(!isNaN(value) ? value : $(this).prop("defaultValue"));
+		});
+
+		$('#answer').keyup(function (e) {
+			if (e.which === 32) {
+				trainer.question.skip();
+			} else if (e.which === 27) {
+				$(this).val('');
+			} else {
+				trainer.question.verifyAndContinue();
+			}
+		});
+
+		$("form#options").submit(function (e) {
+			e.preventDefault();
+			var hasValidOptions = trainer.options.initialize();
+			if (hasValidOptions) {
+				trainer.question.createNew();
+				trainer.run.initializeTrainer();
+			}
+		});
+
+		$('#skipquestion').click(function () {
+			trainer.question.skip();
+			$("#answer").focus();
+		});
+
+		$('#clearquestion').click(function () {
+			$("#answer").val('');
+			$("#answer").focus();
+		});
+
+		$('#quittooptions').click(function () {
+			$('#timer').countdown('stop');
+		});
+
+		$('#start').fadeIn();
+	});
+})();

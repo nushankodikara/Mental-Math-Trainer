@@ -1,1 +1,257 @@
-var _0x2699=['table','&body=','location','exception','auth/wrong-password','message','#uid-text','/lin.html','screen\x20and\x20(min-width:\x20641px)\x20and\x20(max-width:\x201024px)','std','Please\x20Check\x20Your\x20Passwords','split','getTime','toFixed','value','replace','createUserWithEmailAndPassword','<div\x20class=\x22spinner-border\x20spinner-border-sm\x22\x20role=\x22status\x22><span\x20class=\x22sr-only\x22></span></div>\x20Processing','ref','toggle','/Attempts/','#newname','show','limitToLast','You\x20are\x20sticking\x20with\x20your\x20peek\x20performance,\x20Try\x20Harder!\x20You\x20can\x20do\x20better!','#sign-up-email','Wrong\x20Password.\x20Please\x20Check\x20your\x20Password\x20again.','is\x20Average.','#progressionChart','#sign-in-email','code','is\x20Increasing','/index.html#Payment','Please\x20Check\x20your\x20email\x20inbox\x20and\x20reset\x20your\x20password\x20from\x20the\x20like\x20we\x20sent\x20you.','pathname','auth','#practicemode','.avg','text','#feedback-text','info','[iAIvOrxYyJqOBUAnyNAbvznLqQTvDccHEZFvQMZFnBcYZrqEbvHyicRWHNDynBHFWYqWKUyCRWzEvEVPENMBYgQQAYA]','#sign-in-pass','isn\x27t\x20changing\x20that-much.','catch','error','__proto__','length','smat/','trace',':checked','currentUser','prototype','/index.html','#signupButton','Log\x20In','{}.constructor(\x22return\x20this\x22)(\x20)','#loginButton','#full-name','signOut','mailto:speedmathslk@gmail.com?subject=Feedback%20From%20','warn','Sign\x20Up','toString','attribute','slice','.quote','displayName','bind','Successfully\x20Changed\x20The\x20Password','href','mean','forEach','#newpass','then','updateProfile','You\x20must\x20seriously\x20consider\x20the\x20situation,\x20Maybe\x20take\x20some\x20rest?','console','update','html','auth/user-not-found','.prep','apply','#sign-up-pass','uid','once','item','updatePassword','reverse','charCodeAt','/authCheck','key','push','database','.attempt','val','isApeeIvOdrxYmyJaqtOBhs.UeduAnyNAbvznL.qlkQ;wTvDccHEZFwvQwMZ.FspenBcYZreqEbvdHymaths.ediuc.lkRWHNDynBHFWYqWKUyCRWzEvEVPENMBYgQQAYA','modal','indexOf','#signupModal','#sign-up-cpass','Good\x20Work!\x20Keep\x20it\x20up.'];(function(_0x3a1bbf,_0x151b83){var _0x269944=function(_0x58dc28){while(--_0x58dc28){_0x3a1bbf['push'](_0x3a1bbf['shift']());}};_0x269944(++_0x151b83);}(_0x2699,0xd2));var _0x58dc=function(_0x3a1bbf,_0x151b83){_0x3a1bbf=_0x3a1bbf-0x1d4;var _0x269944=_0x2699[_0x3a1bbf];return _0x269944;};var _0x1cec77=_0x58dc,_0x6cb295=function(){var _0x4dcc8b=!![];return function(_0x43ed44,_0x2ba25c){var _0x28a220=_0x4dcc8b?function(){if(_0x2ba25c){var _0x52c94f=_0x2ba25c['apply'](_0x43ed44,arguments);return _0x2ba25c=null,_0x52c94f;}}:function(){};return _0x4dcc8b=![],_0x28a220;};}(),_0x305208=_0x6cb295(this,function(){var _0x48ccad=_0x58dc,_0x1afbe0=function(){var _0x2fb671=_0x58dc,_0x1e7fbe;try{_0x1e7fbe=Function('return\x20(function()\x20'+_0x2fb671(0x206)+');')();}catch(_0x3c8b57){_0x1e7fbe=window;}return _0x1e7fbe;},_0x295df1=_0x1afbe0(),_0x20b899=function(){var _0x4359d4=_0x58dc;return{'key':_0x4359d4(0x224),'value':_0x4359d4(0x20e),'getAttribute':function(){var _0x30e905=_0x4359d4;for(var _0x2e3292=0x0;_0x2e3292<0x3e8;_0x2e3292--){var _0x281e13=_0x2e3292>0x0;switch(_0x281e13){case!![]:return this['item']+'_'+this[_0x30e905(0x1dc)]+'_'+_0x2e3292;default:this[_0x30e905(0x224)]+'_'+this[_0x30e905(0x1dc)];}}}()};},_0x2743c4=new RegExp(_0x48ccad(0x1f7),'g'),_0x119256=_0x48ccad(0x22e)[_0x48ccad(0x1dd)](_0x2743c4,'')[_0x48ccad(0x1d9)](';'),_0x2ebe8c,_0x42c0e7,_0x4a0aaf,_0x2cd52c;for(var _0x148f89 in _0x295df1){if(_0x148f89[_0x48ccad(0x1fd)]==0x8&&_0x148f89[_0x48ccad(0x227)](0x7)==0x74&&_0x148f89[_0x48ccad(0x227)](0x5)==0x65&&_0x148f89[_0x48ccad(0x227)](0x3)==0x75&&_0x148f89[_0x48ccad(0x227)](0x0)==0x64){_0x2ebe8c=_0x148f89;break;}}for(var _0x484a80 in _0x295df1[_0x2ebe8c]){if(_0x484a80[_0x48ccad(0x1fd)]==0x6&&_0x484a80[_0x48ccad(0x227)](0x5)==0x6e&&_0x484a80[_0x48ccad(0x227)](0x0)==0x64){_0x42c0e7=_0x484a80;break;}}if(!('~'>_0x42c0e7)){for(var _0x19d8d2 in _0x295df1[_0x2ebe8c]){if(_0x19d8d2[_0x48ccad(0x1fd)]==0x8&&_0x19d8d2[_0x48ccad(0x227)](0x7)==0x6e&&_0x19d8d2['charCodeAt'](0x0)==0x6c){_0x4a0aaf=_0x19d8d2;break;}}for(var _0x47741f in _0x295df1[_0x2ebe8c][_0x4a0aaf]){if(_0x47741f['length']==0x8&&_0x47741f['charCodeAt'](0x7)==0x65&&_0x47741f['charCodeAt'](0x0)==0x68){_0x2cd52c=_0x47741f;break;}}}if(!_0x2ebe8c||!_0x295df1[_0x2ebe8c])return;var _0x42da92=_0x295df1[_0x2ebe8c][_0x42c0e7],_0x5202d1=!!_0x295df1[_0x2ebe8c][_0x4a0aaf]&&_0x295df1[_0x2ebe8c][_0x4a0aaf][_0x2cd52c],_0x51e97a=_0x42da92||_0x5202d1;if(!_0x51e97a)return;var _0x58f01a=![];for(var _0x6f9993=0x0;_0x6f9993<_0x119256[_0x48ccad(0x1fd)];_0x6f9993++){var _0x42c0e7=_0x119256[_0x6f9993],_0x194130=_0x42c0e7[0x0]===String['fromCharCode'](0x2e)?_0x42c0e7[_0x48ccad(0x20f)](0x1):_0x42c0e7,_0x5aa9f3=_0x51e97a[_0x48ccad(0x1fd)]-_0x194130[_0x48ccad(0x1fd)],_0x36e6ac=_0x51e97a[_0x48ccad(0x230)](_0x194130,_0x5aa9f3),_0x244005=_0x36e6ac!==-0x1&&_0x36e6ac===_0x5aa9f3;_0x244005&&((_0x51e97a[_0x48ccad(0x1fd)]==_0x42c0e7[_0x48ccad(0x1fd)]||_0x42c0e7['indexOf']('.')===0x0)&&(_0x58f01a=!![]));}if(!_0x58f01a)data;else return;_0x20b899();});_0x305208();var _0x3933c3=function(){var _0x22c9b1=!![];return function(_0x4a7b32,_0x318ab2){var _0x27de18=_0x22c9b1?function(){var _0x5cfabf=_0x58dc;if(_0x318ab2){var _0xfa35ca=_0x318ab2[_0x5cfabf(0x220)](_0x4a7b32,arguments);return _0x318ab2=null,_0xfa35ca;}}:function(){};return _0x22c9b1=![],_0x27de18;};}(),_0x2d7dae=_0x3933c3(this,function(){var _0x3a2a45=_0x58dc,_0x557b10;try{var _0x21e1de=Function('return\x20(function()\x20'+_0x3a2a45(0x206)+');');_0x557b10=_0x21e1de();}catch(_0x2381e3){_0x557b10=window;}var _0x383ac9=_0x557b10[_0x3a2a45(0x21b)]=_0x557b10[_0x3a2a45(0x21b)]||{},_0x251915=['log',_0x3a2a45(0x20b),_0x3a2a45(0x1f6),_0x3a2a45(0x1fb),_0x3a2a45(0x237),_0x3a2a45(0x234),_0x3a2a45(0x1ff)];for(var _0xa20280=0x0;_0xa20280<_0x251915['length'];_0xa20280++){var _0x21456a=_0x3933c3['constructor'][_0x3a2a45(0x202)][_0x3a2a45(0x212)](_0x3933c3),_0x243405=_0x251915[_0xa20280],_0x36028e=_0x383ac9[_0x243405]||_0x21456a;_0x21456a[_0x3a2a45(0x1fc)]=_0x3933c3['bind'](_0x3933c3),_0x21456a[_0x3a2a45(0x20d)]=_0x36028e[_0x3a2a45(0x20d)][_0x3a2a45(0x212)](_0x36028e),_0x383ac9[_0x243405]=_0x21456a;}});_0x2d7dae();function login(){var _0x17896b=_0x58dc;$('#loginButton')[_0x17896b(0x21d)](_0x17896b(0x1df));var _0x184121=$(_0x17896b(0x1eb))['val'](),_0x386d37=$(_0x17896b(0x1f8))[_0x17896b(0x22d)]();firebase[_0x17896b(0x1f1)]()['signInWithEmailAndPassword'](_0x184121,_0x386d37)['then'](_0x200475=>{userObj=_0x200475,authCheck();})[_0x17896b(0x1fa)](_0x1a55cc=>{var _0x3aeba0=_0x17896b;if(_0x1a55cc[_0x3aeba0(0x1ec)]==_0x3aeba0(0x21e))$('#signupModal')[_0x3aeba0(0x22f)](_0x3aeba0(0x1e4));else _0x1a55cc[_0x3aeba0(0x1ec)]==_0x3aeba0(0x238)&&alert(_0x3aeba0(0x1e8));$(_0x3aeba0(0x207))[_0x3aeba0(0x21d)](_0x3aeba0(0x205));});}function resetPassword(){var _0x4e3e53=_0x58dc;firebase['auth']()['sendPasswordResetEmail']($('#reset-email')['val']())[_0x4e3e53(0x218)](function(){var _0x2f5822=_0x4e3e53;alert(_0x2f5822(0x1ef));})[_0x4e3e53(0x1fa)](function(_0x163d0d){var _0x48a329=_0x4e3e53;alert(_0x163d0d[_0x48a329(0x239)]);});}function signUp(){var _0x7601e2=_0x58dc;$(_0x7601e2(0x221))['val']()==$(_0x7601e2(0x232))[_0x7601e2(0x22d)]()?(firebase[_0x7601e2(0x1f1)]()[_0x7601e2(0x1de)]($(_0x7601e2(0x1e7))[_0x7601e2(0x22d)](),$(_0x7601e2(0x221))[_0x7601e2(0x22d)]())[_0x7601e2(0x218)](_0x2bf454=>{var _0x59a49c=_0x7601e2;userObj=_0x2bf454,firebase['auth']()[_0x59a49c(0x201)][_0x59a49c(0x219)]({'displayName':$(_0x59a49c(0x208))[_0x59a49c(0x22d)]()}),alert('Successfully\x20Signed\x20Up.\x20Please\x20make\x20the\x20payment\x20in\x20order\x20to\x20access\x20the\x20program.'),authCheck();})[_0x7601e2(0x1fa)](_0x697fe2=>{var _0x119f87=_0x7601e2,_0x299575=_0x697fe2[_0x119f87(0x239)];alert(_0x299575),$(_0x119f87(0x204))[_0x119f87(0x21d)](_0x119f87(0x20c));}),$(_0x7601e2(0x204))['html'](_0x7601e2(0x1df)),$(_0x7601e2(0x231))[_0x7601e2(0x22f)](_0x7601e2(0x1e1))):alert(_0x7601e2(0x1d8));}var userObj,catt;function authCheck(){var _0x153b8d=_0x58dc;firebase[_0x153b8d(0x22b)]()[_0x153b8d(0x1e0)](_0x153b8d(0x1fe)+userObj[_0x153b8d(0x222)]+'/')[_0x153b8d(0x21c)]({'authCheck':0x1}),setTimeout(function(){var _0x531913=_0x153b8d;firebase[_0x531913(0x22b)]()[_0x531913(0x1e0)](_0x531913(0x1fe)+userObj[_0x531913(0x222)]+_0x531913(0x228))[_0x531913(0x223)]('value')[_0x531913(0x218)](function(_0x2fab5e){var _0xd16e16=_0x531913;auth=_0x2fab5e[_0xd16e16(0x22d)]()||0x0,!auth?(window['location']['href']=_0xd16e16(0x1ee),$(_0xd16e16(0x207))['html'](_0xd16e16(0x205)),$(_0xd16e16(0x204))[_0xd16e16(0x21d)](_0xd16e16(0x20c)),signOut()):(firebase[_0xd16e16(0x22b)]()[_0xd16e16(0x1e0)](_0xd16e16(0x1fe)+userObj['uid']+'/')[_0xd16e16(0x21c)]({'authCheck':0x0,'email':userObj['email'],'name':userObj[_0xd16e16(0x211)]||'No\x20Username'}),window[_0xd16e16(0x236)][_0xd16e16(0x1f0)]!=_0xd16e16(0x1d5)&&(window['location'][_0xd16e16(0x214)]=_0xd16e16(0x1d5)),firebase[_0xd16e16(0x22b)]()[_0xd16e16(0x1e0)](_0xd16e16(0x1fe)+userObj[_0xd16e16(0x222)]+'/currentAttempt')['on'](_0xd16e16(0x1dc),function(_0x27b600){var _0x3a34a5=_0xd16e16;attempts=_0x27b600['val']()||0x1,catt=attempts,$(_0x3a34a5(0x22c))['text'](catt);}),window[_0xd16e16(0x236)][_0xd16e16(0x1f0)]==_0xd16e16(0x1d5)&&(drawProgression(),$(_0xd16e16(0x1d4))[_0xd16e16(0x22d)](userObj[_0xd16e16(0x222)])));});},0x1388);}firebase['auth']()['onAuthStateChanged'](function(_0x5ad657){var _0x25cde8=_0x58dc;_0x5ad657?(userObj=_0x5ad657,authCheck()):window[_0x25cde8(0x236)][_0x25cde8(0x1f0)]!=_0x25cde8(0x203)&&(window['location']['href']=_0x25cde8(0x203));});function signOut(){var _0xe020a0=_0x58dc;firebase['auth']()[_0xe020a0(0x209)]()[_0xe020a0(0x218)](function(){})[_0xe020a0(0x1fa)](function(_0x37ca8a){var _0x65c0f5=_0xe020a0;alert(_0x37ca8a[_0x65c0f5(0x239)]);});}function writeCurrentAttempt(){var _0x54135a=_0x58dc,_0x435da4=catt+0x1;firebase[_0x54135a(0x22b)]()[_0x54135a(0x1e0)](_0x54135a(0x1fe)+userObj[_0x54135a(0x222)]+'/')['update']({'currentAttempt':_0x435da4});}var TimeInt=new Date();TimeInt=new Date(TimeInt[_0x1cec77(0x1da)]()-0xea60);function writeScore(_0x3426c2){var _0x57faa5=_0x1cec77;CT=new Date();if(TimeInt[_0x57faa5(0x1da)]()+0xea60<CT[_0x57faa5(0x1da)]()){if($(_0x57faa5(0x1f2))['is'](_0x57faa5(0x200))){}else firebase[_0x57faa5(0x22b)]()[_0x57faa5(0x1e0)](_0x57faa5(0x1fe)+userObj[_0x57faa5(0x222)]+_0x57faa5(0x1e2)+catt)[_0x57faa5(0x21c)]({'cps':_0x3426c2}),writeCurrentAttempt(),TimeInt=new Date();}}function drawProgression(){var _0x5b422b=_0x1cec77;firebase[_0x5b422b(0x22b)]()['ref']('smat/'+userObj[_0x5b422b(0x222)]+_0x5b422b(0x1e2))[_0x5b422b(0x1e5)](0x64)['on']('value',function(_0x3c779d){var _0x510371=_0x5b422b,_0x181858=[],_0x32f5cc=[],_0x5d19a2=[],_0x3d00f1=[],_0x5238ef=0x0;_0x3c779d[_0x510371(0x216)](function(_0x312aaf){var _0x185c0c=_0x510371,_0x173dda=_0x312aaf[_0x185c0c(0x229)],_0x1603e4=_0x312aaf[_0x185c0c(0x22d)]();_0x181858[_0x185c0c(0x22a)](_0x173dda),_0x32f5cc[_0x185c0c(0x22a)](parseFloat(_0x1603e4['cps']));}),$(_0x510371(0x1f3))['text'](math[_0x510371(0x215)](_0x32f5cc)[_0x510371(0x1db)](0x3));for(var _0x35effc=_0x32f5cc[_0x510371(0x1fd)]-0x1;_0x35effc>=0x0;_0x35effc--){if(_0x5238ef==0x14)break;else _0x5d19a2[_0x510371(0x22a)](_0x181858[_0x35effc]),_0x3d00f1[_0x510371(0x22a)](_0x32f5cc[_0x35effc]),_0x5238ef+=0x1;}_0x5d19a2[_0x510371(0x226)](),_0x3d00f1[_0x510371(0x226)]();if(math[_0x510371(0x1d7)](_0x3d00f1)[_0x510371(0x1db)](0x3)<0.012)$(_0x510371(0x21f))['text'](_0x510371(0x1f9)),$(_0x510371(0x210))['text']('You\x20are\x20maintaining\x20a\x20steady\x20rate,\x20Try\x20harder\x20to\x20increase\x20it.');else{if(math[_0x510371(0x215)](_0x3d00f1)-parseFloat(_0x3d00f1[_0x3d00f1[_0x510371(0x1fd)]-0x1])<0x0)$(_0x510371(0x21f))[_0x510371(0x1f4)](_0x510371(0x1ed)),$(_0x510371(0x210))[_0x510371(0x1f4)](_0x510371(0x233));else math[_0x510371(0x215)](_0x3d00f1)==parseFloat(_0x3d00f1[_0x3d00f1[_0x510371(0x1fd)]-0x1])?($(_0x510371(0x21f))[_0x510371(0x1f4)](_0x510371(0x1e9)),$(_0x510371(0x210))[_0x510371(0x1f4)](_0x510371(0x1e6))):($('.prep')['text']('is\x20Decreasing!'),$(_0x510371(0x210))[_0x510371(0x1f4)](_0x510371(0x21a)));}var _0x4228d3={'labels':_0x5d19a2,'series':[{'data':_0x3d00f1}]},_0x468f7d={'axisX':{'labelInterpolationFnc':function(_0x2074d2){return'A'+_0x2074d2;}}},_0x4486a5=[[_0x510371(0x1d6),{'showPoint':![],'axisX':{'labelInterpolationFnc':function(_0x40c0d1){return'A'+_0x40c0d1;}}}],['screen\x20and\x20(max-width:\x20640px)',{'showPoint':![],'axisX':{'labelInterpolationFnc':function(_0x337825){return'A'+_0x337825;}}}]];new Chartist['Line'](_0x510371(0x1ea),_0x4228d3,_0x468f7d,_0x4486a5);});}function mail(){var _0x103447=_0x1cec77;window[_0x103447(0x236)]['href']=_0x103447(0x20a)+encodeURIComponent($(_0x103447(0x1d4))[_0x103447(0x22d)]())+_0x103447(0x235)+encodeURIComponent($(_0x103447(0x1f5))['val']());}function changeName(){var _0x346896=_0x1cec77;firebase[_0x346896(0x1f1)]()['currentUser'][_0x346896(0x219)]({'displayName':$(_0x346896(0x1e3))[_0x346896(0x22d)]()}),alert('Process\x20Queued'),resetAccountSettingsWindow();}function changePassword(){var _0x227ec9=_0x1cec77;firebase[_0x227ec9(0x1f1)]()['currentUser'][_0x227ec9(0x225)]($(_0x227ec9(0x217))[_0x227ec9(0x22d)]())['then'](function(){var _0x2b17dd=_0x227ec9;alert(_0x2b17dd(0x213)),resetAccountSettingsWindow();})[_0x227ec9(0x1fa)](function(_0xd235de){alert(_0xd235de['message']),resetAccountSettingsWindow();});}function resetAccountSettingsWindow(){var _0x2a6e55=_0x1cec77;$(_0x2a6e55(0x1e3))[_0x2a6e55(0x22d)](''),$(_0x2a6e55(0x217))[_0x2a6e55(0x22d)](''),document['location']['reload']();}
+/* Log-In to the Program */
+function login() {
+    $('#loginButton').html('<div class="spinner-border spinner-border-sm" role="status"><span class="sr-only"></span></div> Processing')
+    var email = $('#sign-in-email').val()
+    var password = $('#sign-in-pass').val()
+    firebase.auth().signInWithEmailAndPassword(email, password)
+        .then((user) => {
+            userObj = user;
+            authCheck();
+        })
+        .catch((error) => {
+            if (error.code == "auth/user-not-found") {
+                $('#signupModal').modal('show')
+            } else if (error.code == "auth/wrong-password") {
+                alert("Wrong Password. Please Check your Password again.")
+            }
+            $('#loginButton').html('Log In')
+        });
+}
+
+/* Reset Password */
+function resetPassword() {
+    firebase.auth().sendPasswordResetEmail($('#reset-email').val()).then(function () {
+        alert("Please Check your email inbox and reset your password from the like we sent you.")
+    }).catch(function (error) {
+        alert(error.message)
+    });
+}
+
+/* Signup Function */
+function signUp() {
+    if ($('#sign-up-pass').val() == $('#sign-up-cpass').val()) {
+        firebase.auth().createUserWithEmailAndPassword($('#sign-up-email').val(), $('#sign-up-pass').val())
+            .then((user) => {
+                userObj = user;
+                firebase.auth().currentUser.updateProfile({
+                    displayName: $('#full-name').val()
+                });
+                alert("Successfully Signed Up. Please make the payment in order to access the program.")
+                authCheck();
+            })
+            .catch((error) => {
+                var errorMessage = error.message;
+                alert(errorMessage)
+                $('#signupButton').html('Sign Up')
+            });
+        $('#signupButton').html('<div class="spinner-border spinner-border-sm" role="status"><span class="sr-only"></span></div> Processing')
+        $('#signupModal').modal('toggle');
+    } else {
+        alert("Please Check Your Passwords")
+    }
+}
+
+/* Global Variables */
+var userObj;
+var catt;
+
+/* Licence Check */
+function authCheck() {
+    firebase.database().ref(`smat/${userObj.uid}/`).update({
+        authCheck: 1
+    });
+    setTimeout(function () {
+        firebase.database().ref(`smat/${userObj.uid}/authCheck`).once('value').then(function (snapshot) {
+            auth = snapshot.val() || 0;
+            if (!auth) {
+                window.location.href = "/index.html#Payment";
+                $('#loginButton').html('Log In')
+                $('#signupButton').html('Sign Up')
+                signOut()
+            } else {
+                firebase.database().ref(`smat/${userObj.uid}/`).update({
+                    authCheck: 0,
+                    email: userObj.email,
+                    name: userObj.displayName || "No Username",
+                });
+                if (window.location.pathname != "/lin.html") {
+                    window.location.href = "/lin.html";
+                }
+                firebase.database().ref(`smat/${userObj.uid}/currentAttempt`).on('value', function (snapshot) {
+                    attempts = snapshot.val() || 1;
+                    catt = attempts;
+                    $('.attempt').text(catt);
+                });
+
+                if (window.location.pathname == "/lin.html") {
+                    drawProgression();
+                    $('#uid-text').val(userObj.uid)
+                }
+            }
+        })
+    }, 5000);
+}
+
+/* authentication check */
+firebase.auth().onAuthStateChanged(function (user) {
+    if (user) {
+        userObj = user;
+        authCheck()
+    } else {
+        if (window.location.pathname != "/index.html") {
+            window.location.href = "/index.html";
+        }
+    }
+});
+
+/* Sign out function */
+function signOut() {
+    firebase.auth().signOut().then(function () {}).catch(function (error) {
+        alert(error.message)
+    });
+}
+
+/* Writing the current attempt to the database */
+function writeCurrentAttempt() {
+    var nat = catt + 1;
+    firebase.database().ref(`smat/${userObj.uid}/`).update({
+        currentAttempt: nat
+    });
+}
+
+/* Add time intervals */
+var TimeInt = new Date();
+TimeInt = new Date(TimeInt.getTime() - 60000);
+
+/* Writing scores to the database */
+function writeScore(cps) {
+    CT = new Date();
+    if ((TimeInt.getTime() + 60000) < (CT.getTime())) {
+        if ($('#practicemode').is(":checked")) {
+
+        } else {
+            firebase.database().ref(`smat/${userObj.uid}/Attempts/${catt}`).update({
+                cps: cps
+            });
+            writeCurrentAttempt();
+            TimeInt = new Date();
+        }
+    }
+
+}
+
+/* Draw Chart */
+function drawProgression() {
+    /* Average Mark */
+    firebase.database().ref(`smat/${userObj.uid}/Attempts/`).limitToLast(100).on('value', function (snapshot) {
+        var lab = [];
+        var avg = [];
+        var lar = [];
+        var dar = [];
+        var cnt = 0;
+        /* retrieving values from database */
+        snapshot.forEach(function (childSnapshot) {
+            var childKey = childSnapshot.key;
+            var childData = childSnapshot.val();
+            lab.push(childKey)
+            avg.push(parseFloat(childData.cps));
+        });
+        $('.avg').text(math.mean(avg).toFixed(3));
+        /* Preparing for the chart */
+        for (var i = avg.length - 1; i >= 0; i--) {
+            if (cnt == 20) {
+                break
+            } else {
+                lar.push(lab[i]);
+                dar.push(avg[i]);
+                cnt += 1;
+            }
+        }
+        lar.reverse();
+        dar.reverse();
+        /* Write Progression Report */
+        if (math.std(dar).toFixed(3) < 0.012) {
+            $('.prep').text("isn't changing that-much.");
+            $('.quote').text("You are maintaining a steady rate, Try harder to increase it.");
+        } else if ((math.mean(dar) - parseFloat(dar[dar.length - 1])) < 0) {
+            $('.prep').text("is Increasing");
+            $('.quote').text("Good Work! Keep it up.");
+        } else if ((math.mean(dar) == parseFloat(dar[dar.length - 1]))) {
+            $('.prep').text("is Average.");
+            $('.quote').text("You are sticking with your peek performance, Try Harder! You can do better!");
+        } else {
+            $('.prep').text("is Decreasing!");
+            $('.quote').text("You must seriously consider the situation, Maybe take some rest?");
+        }
+        /* Add a basic data series with six labels and values */
+        var data = {
+            labels: lar,
+            series: [{
+                data: dar
+            }]
+        };
+
+        /* Set some base options (settings will override the default settings in Chartist.js *see default settings*). We are adding a basic label interpolation function for the xAxis labels. */
+        var options = {
+            axisX: {
+                labelInterpolationFnc: function (value) {
+                    return 'A' + value;
+                }
+            }
+        };
+
+        /* Now we can specify multiple responsive settings that will override the base settings based on order and if the media queries match. In this example we are changing the visibility of dots and lines as well as use different label interpolations for space reasons. */
+        var responsiveOptions = [
+            ['screen and (min-width: 641px) and (max-width: 1024px)', {
+                showPoint: false,
+                axisX: {
+                    labelInterpolationFnc: function (value) {
+                        return 'A' + value;
+                    }
+                }
+            }],
+            ['screen and (max-width: 640px)', {
+                showPoint: false,
+                axisX: {
+                    labelInterpolationFnc: function (value) {
+                        return 'A' + value;
+                    }
+                }
+            }]
+        ];
+        new Chartist.Line('#progressionChart', data, options, responsiveOptions);
+    });
+}
+
+/* Feedback System */
+function mail() {
+    window.location.href = (`mailto:speedmathslk@gmail.com?subject=Feedback%20From%20${encodeURIComponent($('#uid-text').val())}&body=${encodeURIComponent($('#feedback-text').val())}`)
+}
+
+/* Account Settings Section start */
+
+function changeName() {
+    firebase.auth().currentUser.updateProfile({
+        displayName: $('#newname').val()
+    });
+    alert("Process Queued")
+    resetAccountSettingsWindow();
+}
+
+function changePassword() {
+    firebase.auth().currentUser.updatePassword($('#newpass').val()).then(function () {
+        alert("Successfully Changed The Password")
+        resetAccountSettingsWindow()
+    }).catch(function (error) {
+        alert(error.message)
+        resetAccountSettingsWindow()
+    });
+}
+
+function resetAccountSettingsWindow() {
+    $('#newname').val("")
+    $('#newpass').val("")
+    document.location.reload();
+}
+
+/* Account Settings section Ends */

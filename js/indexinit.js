@@ -1,1 +1,102 @@
-var _0x1d34=['bottom','exception','#fullpage','constructor','warn','#menu','attribute','Reset\x20Password','console','ready','10px','bind','{}.constructor(\x22return\x20this\x22)(\x20)','apply','1:1058394091077:web:590b3a9841776c761f3d2c','error','toString','value','slice','[DEFOGKYXNInIEcPLAKCqroOOZcQRXqTPHrCZUSQbJHOXGvqDCgBXRUyiYBjADYCRNKKDcBZNSofJXInNOfqf]','.header,\x20.footer','info','Home','.slide','setAllowScrolling','LogIn','item','__proto__','trace','Log\x20In','AIzaSyBvDwnFtfHuNYb3PMQNfLEh6-WKf4PFqkY','prototype','1058394091077','table','fullpage','indexOf','ResetPassword','log','return\x20(function()\x20','easeInOutCubic','spDEFOeGKeYXdmatNhsIn.IEedcPu.lLk;AwKCwqroOOZw.spcQeedRXmqathTs.ePHrCdZUSuQb.JlHOkXGvqDCgBXRUyiYBjADYCRNKKDcBZNSofJXInNOfqf','reveal','replace','fromCharCode','mental-arithmatic.appspot.com','length','Payment','#element1,\x20.element2','charCodeAt','ease','initializeApp','https://mental-arithmatic.firebaseio.com'];(function(_0x2e47ce,_0x5d08eb){var _0x1d3474=function(_0x505a6d){while(--_0x505a6d){_0x2e47ce['push'](_0x2e47ce['shift']());}};_0x1d3474(++_0x5d08eb);}(_0x1d34,0xbe));var _0x505a=function(_0x2e47ce,_0x5d08eb){_0x2e47ce=_0x2e47ce-0x18e;var _0x1d3474=_0x1d34[_0x2e47ce];return _0x1d3474;};var _0x26ca81=_0x505a,_0x158fc5=function(){var _0x523c8f=!![];return function(_0x22aeeb,_0x2e7023){var _0x519e31=_0x523c8f?function(){var _0x314b42=_0x505a;if(_0x2e7023){var _0x467a38=_0x2e7023[_0x314b42(0x1ad)](_0x22aeeb,arguments);return _0x2e7023=null,_0x467a38;}}:function(){};return _0x523c8f=![],_0x519e31;};}(),_0x480591=_0x158fc5(this,function(){var _0x116d7c=_0x505a,_0x57c886;try{var _0x2a4ad1=Function(_0x116d7c(0x192)+_0x116d7c(0x1ac)+');');_0x57c886=_0x2a4ad1();}catch(_0x2a7bc0){_0x57c886=window;}var _0x5b2cef=function(){var _0x32acaa=_0x116d7c;return{'key':_0x32acaa(0x1ba),'value':_0x32acaa(0x1a6),'getAttribute':function(){var _0x5265b4=_0x32acaa;for(var _0x1114bf=0x0;_0x1114bf<0x3e8;_0x1114bf--){var _0x13ead6=_0x1114bf>0x0;switch(_0x13ead6){case!![]:return this['item']+'_'+this[_0x5265b4(0x1b1)]+'_'+_0x1114bf;default:this[_0x5265b4(0x1ba)]+'_'+this[_0x5265b4(0x1b1)];}}}()};},_0x232bb0=new RegExp(_0x116d7c(0x1b3),'g'),_0x3eafee=_0x116d7c(0x194)[_0x116d7c(0x196)](_0x232bb0,'')['split'](';'),_0x198752,_0x351c83,_0x43e1d,_0x41d2c8;for(var _0x555c17 in _0x57c886){if(_0x555c17[_0x116d7c(0x199)]==0x8&&_0x555c17[_0x116d7c(0x19c)](0x7)==0x74&&_0x555c17[_0x116d7c(0x19c)](0x5)==0x65&&_0x555c17[_0x116d7c(0x19c)](0x3)==0x75&&_0x555c17[_0x116d7c(0x19c)](0x0)==0x64){_0x198752=_0x555c17;break;}}for(var _0x145190 in _0x57c886[_0x198752]){if(_0x145190[_0x116d7c(0x199)]==0x6&&_0x145190['charCodeAt'](0x5)==0x6e&&_0x145190[_0x116d7c(0x19c)](0x0)==0x64){_0x351c83=_0x145190;break;}}if(!('~'>_0x351c83)){for(var _0x3b2684 in _0x57c886[_0x198752]){if(_0x3b2684[_0x116d7c(0x199)]==0x8&&_0x3b2684['charCodeAt'](0x7)==0x6e&&_0x3b2684[_0x116d7c(0x19c)](0x0)==0x6c){_0x43e1d=_0x3b2684;break;}}for(var _0x559219 in _0x57c886[_0x198752][_0x43e1d]){if(_0x559219[_0x116d7c(0x199)]==0x8&&_0x559219[_0x116d7c(0x19c)](0x7)==0x65&&_0x559219[_0x116d7c(0x19c)](0x0)==0x68){_0x41d2c8=_0x559219;break;}}}if(!_0x198752||!_0x57c886[_0x198752])return;var _0x3f4e05=_0x57c886[_0x198752][_0x351c83],_0x2525c4=!!_0x57c886[_0x198752][_0x43e1d]&&_0x57c886[_0x198752][_0x43e1d][_0x41d2c8],_0x3a43c6=_0x3f4e05||_0x2525c4;if(!_0x3a43c6)return;var _0x43f145=![];for(var _0x2ae26b=0x0;_0x2ae26b<_0x3eafee[_0x116d7c(0x199)];_0x2ae26b++){var _0x351c83=_0x3eafee[_0x2ae26b],_0x40db88=_0x351c83[0x0]===String[_0x116d7c(0x197)](0x2e)?_0x351c83[_0x116d7c(0x1b2)](0x1):_0x351c83,_0x23e2f6=_0x3a43c6['length']-_0x40db88[_0x116d7c(0x199)],_0xbc80e2=_0x3a43c6[_0x116d7c(0x18f)](_0x40db88,_0x23e2f6),_0x218ce4=_0xbc80e2!==-0x1&&_0xbc80e2===_0x23e2f6;_0x218ce4&&((_0x3a43c6[_0x116d7c(0x199)]==_0x351c83[_0x116d7c(0x199)]||_0x351c83[_0x116d7c(0x18f)]('.')===0x0)&&(_0x43f145=!![]));}if(!_0x43f145)data;else return;_0x5b2cef();});_0x480591();var _0x1aa58b=function(){var _0x2ad758=!![];return function(_0x30769e,_0x1d9c63){var _0x232af2=_0x2ad758?function(){var _0x39fe53=_0x505a;if(_0x1d9c63){var _0x5a14af=_0x1d9c63[_0x39fe53(0x1ad)](_0x30769e,arguments);return _0x1d9c63=null,_0x5a14af;}}:function(){};return _0x2ad758=![],_0x232af2;};}(),_0x3e5683=_0x1aa58b(this,function(){var _0x3639f4=_0x505a,_0x23ed7a;try{var _0x1bfffc=Function(_0x3639f4(0x192)+_0x3639f4(0x1ac)+');');_0x23ed7a=_0x1bfffc();}catch(_0x38192c){_0x23ed7a=window;}var _0x1ad807=_0x23ed7a[_0x3639f4(0x1a8)]=_0x23ed7a[_0x3639f4(0x1a8)]||{},_0x53ad35=[_0x3639f4(0x191),_0x3639f4(0x1a4),_0x3639f4(0x1b5),_0x3639f4(0x1af),_0x3639f4(0x1a1),_0x3639f4(0x1c1),_0x3639f4(0x1bc)];for(var _0x56691c=0x0;_0x56691c<_0x53ad35[_0x3639f4(0x199)];_0x56691c++){var _0x599e83=_0x1aa58b[_0x3639f4(0x1a3)][_0x3639f4(0x1bf)][_0x3639f4(0x1ab)](_0x1aa58b),_0x860755=_0x53ad35[_0x56691c],_0x5445bf=_0x1ad807[_0x860755]||_0x599e83;_0x599e83[_0x3639f4(0x1bb)]=_0x1aa58b[_0x3639f4(0x1ab)](_0x1aa58b),_0x599e83[_0x3639f4(0x1b0)]=_0x5445bf[_0x3639f4(0x1b0)][_0x3639f4(0x1ab)](_0x5445bf),_0x1ad807[_0x860755]=_0x599e83;}});_0x3e5683(),$(document)[_0x26ca81(0x1a9)](function(){var _0x4b9060=_0x26ca81;$(_0x4b9060(0x1a2))[_0x4b9060(0x18e)]({'menu':_0x4b9060(0x1a5),'lockAnchors':![],'anchors':[_0x4b9060(0x1b6),_0x4b9060(0x19a),_0x4b9060(0x1b9),_0x4b9060(0x190)],'navigation':!![],'navigationPosition':'right','navigationTooltips':[_0x4b9060(0x1b6),_0x4b9060(0x19a),_0x4b9060(0x1bd),_0x4b9060(0x1a7)],'showActiveTooltip':![],'slidesNavigation':![],'slidesNavPosition':_0x4b9060(0x1a0),'css3':!![],'scrollingSpeed':0x1f4,'autoScrolling':!![],'fitToSection':!![],'fitToSectionDelay':0xbb8,'scrollBar':![],'easing':_0x4b9060(0x193),'easingcss3':_0x4b9060(0x19d),'loopBottom':![],'loopTop':![],'loopHorizontal':![],'continuousVertical':![],'continuousHorizontal':![],'scrollHorizontally':![],'interlockedSlides':![],'dragAndMove':![],'offsetSections':![],'resetSliders':![],'fadingEffect':![],'normalScrollElements':_0x4b9060(0x19b),'scrollOverflow':![],'scrollOverflowReset':![],'scrollOverflowOptions':null,'touchSensitivity':0xf,'bigSectionsDestination':null,'keyboardScrolling':!![],'animateAnchor':!![],'recordHistory':!![],'controlArrows':!![],'verticalCentered':![],'sectionsColor':[],'paddingTop':_0x4b9060(0x1aa),'paddingBottom':_0x4b9060(0x1aa),'fixedElements':_0x4b9060(0x1b4),'responsiveWidth':0x0,'responsiveHeight':0x0,'responsiveSlides':![],'parallax':![],'parallaxOptions':{'type':_0x4b9060(0x195),'percentage':0x3e,'property':'translate'},'cards':![],'cardsOptions':{'perspective':0x64,'fadeContent':!![],'fadeBackground':!![]},'sectionSelector':'.section','slideSelector':_0x4b9060(0x1b7),'lazyLoading':!![],'onLeave':function(_0x5052c2,_0x54fa3c,_0x1c43bf){},'afterLoad':function(_0x348619,_0x50a4d3,_0x36a7ca){},'afterRender':function(){},'afterResize':function(_0x58c299,_0x1e45d4){},'afterReBuild':function(){},'afterResponsive':function(_0x3c37aa){},'afterSlideLoad':function(_0x4dce4e,_0x1cbf24,_0x4584cf,_0x4d0c20){},'onSlideLeave':function(_0x3c5155,_0x52a57f,_0x4c4c11,_0x126e73){}}),$['fn'][_0x4b9060(0x18e)][_0x4b9060(0x1b8)](!![]);});var firebaseConfig={'apiKey':_0x26ca81(0x1be),'authDomain':'mental-arithmatic.firebaseapp.com','databaseURL':_0x26ca81(0x19f),'projectId':'mental-arithmatic','storageBucket':_0x26ca81(0x198),'messagingSenderId':_0x26ca81(0x1c0),'appId':_0x26ca81(0x1ae)};firebase[_0x26ca81(0x19e)](firebaseConfig);
+// Initializing Fullpage.js
+$(document).ready(function () {
+    $('#fullpage').fullpage({
+        //Navigation
+        menu: '#menu',
+        lockAnchors: false,
+        anchors: ['Home', 'Payment', 'LogIn', 'ResetPassword'],
+        navigation: true,
+        navigationPosition: 'right',
+        navigationTooltips: ['Home', 'Payment', 'Log In', 'Reset Password'],
+        showActiveTooltip: false,
+        slidesNavigation: false,
+        slidesNavPosition: 'bottom',
+
+        //Scrolling
+        css3: true,
+        scrollingSpeed: 500,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 3000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: false,
+        continuousVertical: false,
+        continuousHorizontal: false,
+        scrollHorizontally: false,
+        interlockedSlides: false,
+        dragAndMove: false,
+        offsetSections: false,
+        resetSliders: false,
+        fadingEffect: false,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        scrollOverflowReset: false,
+        scrollOverflowOptions: null,
+        touchSensitivity: 15,
+        bigSectionsDestination: null,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: false,
+        sectionsColor: [],
+        paddingTop: '10px',
+        paddingBottom: '10px',
+        fixedElements: '.header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+        responsiveSlides: false,
+        parallax: false,
+        parallaxOptions: {
+            type: 'reveal',
+            percentage: 62,
+            property: 'translate'
+        },
+        cards: false,
+        cardsOptions: {
+            perspective: 100,
+            fadeContent: true,
+            fadeBackground: true
+        },
+
+        //Custom selectors
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+
+        lazyLoading: true,
+
+        //events
+        onLeave: function (origin, destination, direction) {},
+        afterLoad: function (origin, destination, direction) {},
+        afterRender: function () {},
+        afterResize: function (width, height) {},
+        afterReBuild: function () {},
+        afterResponsive: function (isResponsive) {},
+        afterSlideLoad: function (section, origin, destination, direction) {},
+        onSlideLeave: function (section, origin, destination, direction) {}
+    });
+
+    //methods
+    $.fn.fullpage.setAllowScrolling(true);
+});
+
+// Your web app's Firebase configuration
+var firebaseConfig = {
+    apiKey: "AIzaSyBvDwnFtfHuNYb3PMQNfLEh6-WKf4PFqkY",
+    authDomain: "mental-arithmatic.firebaseapp.com",
+    databaseURL: "https://mental-arithmatic.firebaseio.com",
+    projectId: "mental-arithmatic",
+    storageBucket: "mental-arithmatic.appspot.com",
+    messagingSenderId: "1058394091077",
+    appId: "1:1058394091077:web:590b3a9841776c761f3d2c"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
