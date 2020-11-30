@@ -17,7 +17,7 @@ $(document).ready(function () {
         scrollingSpeed: 500,
         autoScrolling: false,
         fitToSection: true,
-        fitToSectionDelay: 3000,
+        fitToSectionDelay: 15000,
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
