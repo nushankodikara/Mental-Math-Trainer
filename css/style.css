@@ -8,6 +8,10 @@ html {
   color: white;
 }
 
+img {
+  max-width: 85vw;
+}
+
 body {
   background-color: black;
 }
