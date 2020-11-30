@@ -86,6 +86,7 @@ function authCheck() {
                 if (window.location.pathname == "/lin.html") {
                     drawProgression();
                     $('#uid-text').val(userObj.uid)
+                    $('#uma-text').val(userObj.email)
                 }
             }
         })
@@ -227,7 +228,7 @@ function drawProgression() {
 
 /* Feedback System */
 function mail() {
-    window.location.href = (`mailto:speedmathslk@gmail.com?subject=Feedback%20From%20${encodeURIComponent($('#uid-text').val())}&body=${encodeURIComponent($('#feedback-text').val())}`)
+    window.location.href = (`mailto:speedmathslk@gmail.com?subject=Feedback%20From%20${encodeURIComponent($('#uma-text').val())}%20${encodeURIComponent($('#uid-text').val())}&body=${encodeURIComponent($('#feedback-text').val())}`)
 }
 
 /* Account Settings Section start */
