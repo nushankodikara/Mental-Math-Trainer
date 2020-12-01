@@ -9,10 +9,6 @@ html {
     color: white;
 }
 
-img {
-    max-width: 85vw;
-}
-
 body {
     background-color: black;
 
@@ -26,6 +22,10 @@ body {
     #fp-nav ul li a span,
     .fp-slidesNav ul li a span {
         background-color: white;
+    }
+
+    .fullHeight {
+        min-height: 90vh;
     }
 
     #bgimg {
@@ -55,9 +55,7 @@ body {
     }
 
     .conDiv {
-        margin: 10px;
         max-width: 650px;
-        width: 85vw;
     }
 
     .justify {

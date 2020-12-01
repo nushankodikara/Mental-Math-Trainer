@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /lin.html
+Disallow: /node_modules/
+Disallow: /locales/
+Disallow: /js/
+Disallow: /InstructionImages/
+Disallow: /css/
+Disallow: /chartist/
+sitemap: https://www.speedmaths.edu.lk/sitemap.txt

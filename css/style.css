@@ -8,10 +8,6 @@ html {
   color: white;
 }
 
-img {
-  max-width: 85vw;
-}
-
 body {
   background-color: black;
 }
@@ -26,6 +22,10 @@ body .fp-slidesNav ul li:hover a.active span {
 body #fp-nav ul li a span,
 body .fp-slidesNav ul li a span {
   background-color: white;
+}
+
+body .fullHeight {
+  min-height: 90vh;
 }
 
 body #bgimg {
@@ -67,9 +67,7 @@ body .homeWelcome {
 }
 
 body .conDiv {
-  margin: 10px;
   max-width: 650px;
-  width: 85vw;
 }
 
 body .justify {
